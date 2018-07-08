@@ -1,0 +1,139 @@
+<!DOCUMENT html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title></title>
+<link rel="stylesheet" type="text/css" href="/portal/main.css">
+<style>
+
+.box {
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    vertical-align: top;
+    background-color: black;
+    border:green solid 5px;
+}
+
+.main {
+    position:relative;
+    height: 250px;
+    width: 100%;
+    background-color: coral;
+    margin: 0px;
+    border:red solid 5px;
+    vertical-align: top;
+}
+
+.title {
+    font-weight:bold;
+    color:white;
+}
+
+para {
+    display: inline-block
+}
+
+.hide {
+    display: none;
+}
+
+.img {
+    height:50px;
+    width:50px;
+    float:left;
+    padding:5px;
+}
+
+.help {
+    position:relative;
+    height: 50px;
+    width: 50%;
+    vertical-align:bottom;
+    background-color:white;
+    border: red solid 5px;
+}
+
+.note {
+    position:relative;
+    height: 50px;
+    width: 50%;
+    vertical-align:bottom;
+    background-color:white;
+    border: green solid 5px;
+}
+
+.container {
+	display: table;
+}
+
+.item {
+        display: table-cell;
+        text-align: center;
+}
+
+.item.grow {
+         width:100%
+}
+
+</style>
+<script type="text/javascript" src="aslo.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<div style='width:100%;height:50px'></div>
+<div id='head'>
+<h1 id='title' style='text-align:center'><center></center></h1>
+</div>
+<div id='tilearea'></div>
+<script>
+activitiesbase = 'orig.activities/'
+
+function maketile(tile){
+      $('<div class=box id = box'+i+'></div>')
+          .appendTo('#tilearea')
+      $('<div class=main id = main'+i+ ' astr=' + activitieslink+tile[3]+'></div>')
+          .appendTo('#box'+i);
+      $('<img class=img src=icons/'+tile[2]+'></img>')
+          .appendTo('#main'+i);
+      $('<p class=para> <strong>'+tile[1]+'</strong><br>' + ' ' + tile[4] + '</p>')
+          .appendTo('#main'+i);
+      console.log(tile.length);
+      if(tile.length > 5){
+          if(tile[5] != undefined){
+          $('<a class=help href='+tile[5]+'>Help</a>')
+              .appendTo('#box'+i);
+          };
+      }
+      if(tile.length > 6){
+          console.log(tile[6]);
+          $('<a class=note href='+tile[6]+'>Note</a>')
+              .appendTo('#box'+i)
+      }
+      //console.log($('#box'+i).html());
+      $('#main'+i).click(function(){window.open($(this).attr('astr'),'_blank');});
+}
+
+$(function(){
+  page = window.location.search.slice(1);
+  if(!page){
+      page =  'aslo';
+      activitieslink = ""
+  } else {
+      activitieslink = activitiesbase
+  }
+  $('center').append(page)
+  $('title').append(page);
+  //console.log(page);
+  // console.log(activitieslink);
+  tiles = window[page].length;
+  //console.log(page+' '+tiles);
+  for(i=0;i<tiles;i++){
+      tile = window[page][i];
+      maketile(tile);
+  }
+});
+</script>
+</body>
+</html>
