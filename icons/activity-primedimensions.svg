@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY stroke_color "#000">
+	<!ENTITY fill_color "#eee">
+]>
+<svg height="55px" viewBox="0 0 55 55" width="55px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" stroke="&stroke_color;" fill="&fill_color;">
+  <g
+     transform="translate(0,0.16692916)"
+     id="g3862">
+    <g
+       transform="matrix(1.057745,0,0,1.057745,-1.5879875,-0.94060696)"
+       id="g3909">
+      <g
+         transform="translate(0.66155575,0)"
+         id="g3857">
+        <path
+           d="m 21.173223,39.305178 7.74236,9.159855 L 28.25943,36.666361 21.996628,46.752313 32.503663,42.16788 z"
+           id="path3034"
+           style="fill:none;stroke:&stroke_color;;stroke-width:2.90221357;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           d="M 4.6543645,39.305179 12.396725,48.465033 11.740571,36.666362 5.4777693,46.752314 15.984804,42.167881 z"
+           id="path3034-0"
+           style="fill:none;stroke:&stroke_color;;stroke-width:2.90221357;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           d="m 37.692084,39.305179 7.74236,9.159854 -0.656153,-11.798671 -6.262802,10.085952 10.507035,-4.584433 z"
+           id="path3034-5"
+           style="fill:none;stroke:&stroke_color;;stroke-width:2.90221357;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <path
+         d="m 16.5,25.000002 22,0"
+         id="path3851"
+         style="fill:none;stroke:&fill_color;;stroke-width:4.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         x="14.914062"
+         y="16.666222"
+         id="text3853"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:&stroke_color;;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+           x="14.914062"
+           y="16.666222"
+           id="tspan3855"
+           style="font-size:18px;font-weight:bold;-inkscape-font-specification:Sans Bold">55</tspan></text>
+    </g>
+  </g>
+</svg>

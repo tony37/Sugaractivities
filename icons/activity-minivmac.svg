@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY fill_color "#CCCCCC">
+  <!ENTITY stroke_color "#000000">
+]>
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect
+       style="opacity:1;fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       width="28.7491"
+       height="32.637188"
+       x="10.555956"
+       y="6.8068576"
+       ry="0" />
+    <path
+       style="opacity:1;fill:&stroke_color;;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 16.017978,10.90625 C 15.305848,10.90625 14.75,11.454217 14.75,12.15625 L 14.75,25.15625 C 14.75,25.858283 15.305849,26.406251 16.017978,26.40625 L 33.833062,26.40625 C 34.545192,26.40625 35.132739,25.858283 35.132739,25.15625 L 35.132739,12.15625 C 35.132739,11.454217 34.545193,10.90625 33.833062,10.90625 L 16.017978,10.90625 z M 16.747065,12.96875 L 18.649031,13 L 18.649031,22.625 L 30.282725,13 L 33.262472,12.96875 L 19.124522,24.5625 L 16.747065,24.5625 L 16.747065,12.96875 z " />
+    <rect
+       style="opacity:1;fill:&fill_color;;fill-opacity:1;stroke:&stroke_color;;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       width="23.728991"
+       height="4.8783426"
+       x="13.061031"
+       y="39.909588" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:&stroke_color;;stroke-width:1.78941524;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 26.030262,32.940762 L 34.210949,32.940762" />
+  </g>
+</svg>
