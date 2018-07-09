@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY fill_color "#FFFFFF">
+  <!ENTITY stroke_color "#000000">
+]>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="45"
+   height="45">
+    <path
+       style="fill:none;stroke:&stroke_color;;stroke-width:3.5;stroke-opacity:1"
+       d="M 15.5,4.6551727 L 15.5,40.344827"
+       id="path2160" />
+    <path
+       style="fill:none;stroke:&stroke_color;;stroke-width:3.5;stroke-opacity:1"
+       d="M 30.5,4.6551726 L 30.5,40.344827"
+       id="path3133" />
+    <path
+       style="fill:none;stroke:&stroke_color;;stroke-width:3.5;stroke-opacity:1"
+       d="M 40.344827,15 L 4.655173,15"
+       id="path3141" />
+    <path
+       style="stroke:&stroke_color;;stroke-width:3.5;stroke-opacity:1"
+       d="M 40.344827,30 L 4.655173,30"
+       id="path3143" />
+    <path
+       style="fill:none;stroke:&stroke_color;;stroke-width:2.89619803;stroke-opacity:1"
+       d="M 29.005305 23.335545 A 3.7599471 3.8793104 0 1 1  21.48541,23.335545 A 3.7599471 3.8793104 0 1 1  29.005305 23.335545 z"
+       transform="matrix(0.9642098,0,0,0.9345418,-1.4361176,0.6249825)" />
+    <g transform="matrix(0.7407407,0,0,0.7685024,10.470258,1.187117)">
+      <path
+         d="M 32.466844,2.3872679 L 42.466844,12.387268"
+         style="stroke:&stroke_color;;stroke-width:3.5;stroke-opacity:1" />
+      <path
+         d="M 32.466844,12.387268 L 42.466844,2.3872679"
+         style="stroke:&stroke_color;;stroke-width:3.5;" />
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="45" height="45" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(44.4517, 22.2143, 23.0714)" id="g2390">
+   <rect fill="#eee" stroke="#000" stroke-width="1.456885" width="13.111962" height="13.111962" x="-31.506747" y="-14.233139" transform="matrix(-0.707107, -0.707107, 0.707107, -0.707107, 0, 0)" id="rect4"/>
+   <rect fill="#eee" stroke="#000" stroke-width="1.456885" width="13.111962" height="13.111962" x="-31.506749" y="-0.091003" transform="matrix(-0.707107, -0.707107, 0.707107, -0.707107, 0, 0)" id="rect2384"/>
+   <rect fill="#eee" stroke="#000" stroke-width="1.456885" width="13.111962" height="13.111962" x="-45.648883" y="-0.091004" transform="matrix(-0.707107, -0.707107, 0.707107, -0.707107, 0, 0)" id="rect2386"/>
+   <rect fill="#eee" stroke="#000" stroke-width="1.456885" width="13.111962" height="13.111962" x="-45.648887" y="-14.233138" transform="matrix(-0.707107, -0.707107, 0.707107, -0.707107, 0, 0)" id="rect2388"/>
+  </g>
+  <rect id="svg_1" height="9.999999" width="10.285713" y="25.07143" x="24.071438" stroke-width="1.5" stroke="#999999" fill="#999999"/>
+  <rect id="svg_2" height="9.999999" width="10.285713" y="11.071432" x="9.785726" stroke-width="1.5" stroke="#999999" fill="#999999"/>
+ </g>
+</svg>

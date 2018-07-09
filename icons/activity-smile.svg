@@ -1,0 +1,29 @@
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY stroke_color "#666666">
+	<!ENTITY fill_color "#ffffff">
+]><svg enable-background="new 0 0 55 55" height="55px" id="Layer_1" version="1.1" viewBox="0 0 55 55" width="55px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><g display="block" id="activity-log">
+
+  <g display="inline">
+    <circle cx = "27.5" cy="27.5" r="20" stroke="&stroke_color;" stroke-width="3.5" fill="none"/>
+    <ellipse rx="2.5" ry="4" cx="21.5" cy="20.5" fill="&fill_color;" stroke="&stroke_color;"/>
+    <ellipse rx="2.5" ry="4" cx="34.5" cy="20.5" fill="&fill_color;" stroke="&stroke_color;" />
+    <g id="g2400"
+     transform="translate(-0.7793522,0.111336)">
+     <path
+       d="M 18.041397,30.748483 C 17.622292,32.638415 16.131067,33.937849 14.452127,33.876128"
+       id="path8"
+       style="fill:&fill_color;stroke:&stroke_color;stroke-width:3.5;stroke-linecap:round" 
+     />
+     <path
+       d="M 39.779075,30.431706 C 40.218029,32.502521 41.779879,33.926322 43.538335,33.858694"
+       id="path12"
+       style="fill:&fill_color;stroke:&stroke_color;stroke-width:3.5;stroke-linecap:round" 
+     />
+     <path
+       d="M 16.840193,32.781486 C 24.632708,40.614294 32.984702,40.614294 40.777217,32.781486 C 33.140565,40.387633 24.965356,40.387633        17.328703,32.781486"
+       id="path14"
+       style="fill:black;stroke:&stroke_color;stroke-width:3.5" 
+     />
+   </g>
+  </g>
+</g></svg>
