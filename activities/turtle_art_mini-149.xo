@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" dir="ltr"
+    class="html-ltr sugar">
+<head>
+    <title>404 Not found</title>
+
+    <link rel="shortcut icon" type="image/x-icon"
+        href="/img/favicon.ico" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="MSSmartTagsPreventParsing" content="true"/>
+    <meta name="keywords" content="sugar,activities,SugarLabs,OLPC,XO"/>
+    <meta name="description" content="Activity Library for Sugar."/>
+    <meta name="Copyright" content="Creative Commons Attribution Share-Alike License v3.0, except where otherwise noted."/>
+    <meta http-equiv="imagetoolbar" content="no"/>
+    <meta name="Rating" content="General"/>
+
+    <link rel="search" type="application/opensearchdescription+xml" title="Sugar Labs Activities"
+        href="/AMOSearch.xml" />
+
+    
+            <link rel="stylesheet" type="text/css" href="/css/amo2009/main.css" media="screen,projection,tv" />        <link rel="stylesheet" type="text/css" href="/css/amo2009/slimbox2.css" media="screen,projection,tv" />    
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="/css/amo2009/ie.css" media="screen,projection,tv" />    <![endif]-->
+    <!--[if IE 7]>
+        <link rel="stylesheet" type="text/css" href="/css/amo2009/ie7.css" media="screen,projection,tv" />    <![endif]-->
+    <!--[if IE 6]>
+        <link rel="stylesheet" type="text/css" href="/css/amo2009/ie6.css" media="screen,projection,tv" />    <![endif]-->
+
+    
+    <script type="text/javascript" src="/js/__utm.js"></script><script type="text/javascript" src="/en-US/sugar/pages/js_constants.js"></script>
+<script type="text/javascript" src="/js/jquery-compressed.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/amo2009/global.js"></script>
+<script type="text/javascript" src="/js/amo2009/slimbox2.js"></script>
+<script type="text/javascript" src="/js/amo2009/addons.js"></script><script type="text/javascript" src="/js/amo2009/global-mozilla.js"></script>
+    <script type="text/javascript">// <![CDATA[
+    $(document).ready(function() {
+        $(".hidden").hide(); // hide anything that should be hidden
+
+        if (typeof __utmSetVar == 'function') {
+                            __utmSetVar("Loggedout");
+                    }
+    });
+    // ]]></script>
+
+        </head>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+	var pageTracker = _gat._getTracker("UA-6267583-4");
+	pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<body id="mozilla-com" class="html-ltr sugar user-anon">
+
+        <ul id="nav-access" role="navigation">
+        <li><a href="#content">Skip to main content</a></li>
+        <li><a href="#search-form">Skip to search form</a></li>
+        <li><a href="#categories">Skip to categories menu</a></li>
+        <li><a href="#other-apps">Skip to other applications menu</a></li>
+    </ul>
+        
+    <div class="section">
+        <div id="header" role="banner">
+        <ul id="sugarnav">
+    <li><a href="http://sugarlabs.org/">Home</a></li>
+    <li><a href="http://wiki.sugarlabs.org/">Wiki</a></li>
+    <li><a href="http://activities.sugarlabs.org/"><i>Activities</i></a></li>
+    <li><a href="http://wiki.sugarlabs.org/go/Sugar_Labs/Donate"><b>Donate</b></a></li>
+    </ul>
+    <p id="title"><a href="/en-US/sugar/" title="Return to the Sugar Activities homepage"><img alt="Add-ons" src="/img/amo2009/app-icons/generic.png" /></a></p>
+    <p id="brand"><a href="http://www.mozilla.com/en-US/" title="Sugar Labs" accesskey="1">Sugar Labs</a></p>
+
+    
+    <div id="aux-nav" role="navigation">
+        <ul id="other-apps" class="change" title="Find activities for other applications">
+            <li>
+                <a href="#" class="controller">Other Applications</a>
+                <ul></ul>
+            </li>
+        </ul>
+
+        
+    <p class="context">
+        <a href="/en-US/sugar/users/register">Register</a> or <a href="/en-US/sugar/users/login?to=">Log in</a>    </p>
+    </div>
+</div>
+    <div class="secondary" role="complementary">
+    <div id="categories" class="categories">
+    <h3 title="Choose a category">
+                    <a href="#categoriesdropdown" aria-haspopup="true">Categories</a>
+
+            </h3>
+    <ul id="categoriesdropdown">
+        <li>
+            <ul>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:113" >Communications and Language</a>                                                    <span class="items">28</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:104" >Search &amp; Discovery</a>                                                    <span class="items">120</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:105" >Documents</a>                                                    <span class="items">65</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:103" >News</a>                                                    <span class="items">11</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:106" >Chat, mail and talk</a>                                                    <span class="items">12</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:101" >Media creation</a>                                                    <span class="items">59</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:107" >Programming</a>                                                    <span class="items">60</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:102" >Maths &amp; Science</a>                                                    <span class="items">171</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:108" >Maps &amp; Geography</a>                                                    <span class="items">22</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:109" >Media players</a>                                                    <span class="items">22</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:100" >Games</a>                                                    <span class="items">196</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:110" >Teacher tools</a>                                                    <span class="items">216</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:111" >Utilities</a>                                                    <span class="items">22</span>
+                                            </li>
+                                                                            <li>
+                        <a href="/en-US/sugar/browse/type:1/cat:112" >Web</a>                                                    <span class="items">20</span>
+                                            </li>
+                            </ul>
+        </li>
+        <li>
+            <ul>
+                <li>
+                    <a href="/en-US/sugar/collections/" >Collections</a>                </li>
+                                                                                                                                                                                                                                                                                                                    </ul>
+        </li>
+    </ul>
+</div>
+</div>
+
+<div class="primary prose" role="main">
+    
+<div class="search-form expanded-search-form">
+    <form method="get" action="/en-US/sugar/search" id="search-form">
+        <div class="basic" id="search-query">
+            <label for="query" class="query-label" title="Click to enter search terms">search for activities</label>
+            <input id="query" type="text" title="search" name="q" value="" />
+            <label for="cat">within</label>
+            <select name="cat" id="cat">
+                    <option class="cat-all" value="all" selected="selected">all activities</option>
+
+                                                                    <option value="1,113">Communications and Language</option>
+                                                                    <option value="1,104">Search &amp; Discovery</option>
+                                                                    <option value="1,105">Documents</option>
+                                                                    <option value="1,103">News</option>
+                                                                    <option value="1,106">Chat, mail and talk</option>
+                                                                    <option value="1,101">Media creation</option>
+                                                                    <option value="1,107">Programming</option>
+                                                                    <option value="1,102">Maths &amp; Science</option>
+                                                                    <option value="1,108">Maps &amp; Geography</option>
+                                                                    <option value="1,109">Media players</option>
+                                                                    <option value="1,100">Games</option>
+                                                                    <option value="1,110">Teacher tools</option>
+                                                                    <option value="1,111">Utilities</option>
+                                                                    <option value="1,112">Web</option>
+                    
+                    <option class="cat-all" value="collections">all collections</option>
+            </select>
+            <button type="submit"><img src="/img/amo2009/blank.gif" alt="Search for activities"/></button>
+        </div>
+
+        </form><form method="get" action="" id="hidden-form" class="asclosed">
+        <div class="advanced" id="advanced-search">
+            <fieldset class="important">
+                            <input type="hidden" name="as" value="1" />
+
+
+                <div class="container">
+                    <label for="lver">Sugar version</label>
+                    <span id="lver-td"><input name="lver" type="text" size="5" maxlength="10" value="" /></span>
+                </div>
+
+
+            </fieldset>
+
+            <fieldset class="subsidiary">
+                <div class="container">
+                    <label for="pp">Per Page</label>
+                    <select name="pp"  id="pp">
+</select>                </div>
+                <div class="container">
+                    <label for="sort">Sort By</label>
+                    <select name="sort"  id="sort">
+<option value="" >Keyword Match</option>
+<option value="newest" >Newest</option>
+<option value="name" >Name</option>
+<option value="averagerating" >Rating</option>
+<option value="weeklydownloads" >Popularity</option>
+</select>                </div>
+                <div class="container">
+                    <label for="lup">Last Updated</label>
+                    <select name="lup"  id="lup">
+<option value="" >Any time</option>
+<option value="1 day ago" >Past Day</option>
+<option value="1 week ago" >Past week</option>
+<option value="1 month ago" >Past month</option>
+<option value="3 months ago" >Past 3 months</option>
+<option value="6 months ago" >Past 6 months</option>
+<option value="1 year ago" >Past year</option>
+</select>                </div>
+            </fieldset>
+        </div>
+
+        <div id="advanced-link" title="Toggle advanced search mode"><a href="/en-US/sugar/4298/turtle_art_mini-149.xo?advancedsearch=1">Advanced</a></div>
+    </form>
+    <div id="search-bubble-inner"></div>
+
+</div>
+
+<script type="text/javascript">
+// <![CDATA[
+
+versions = new Array();
+versions[1] = {'Any' : 'any',
+"0.82": "0.82", "0.84": "0.84", "0.86": "0.86", "0.88": "0.88", "0.90": "0.90", "0.92": "0.92", "0.94": "0.94", "0.96": "0.96", "0.98": "0.98", "0.100": "0.100", "0.102": "0.102", "0.104": "0.104", "0.106": "0.106", "0.108": "0.108", "0.110": "0.110", "0.112": "0.112", };
+
+    var current_app_id = 0;
+    if (gIsFirefox || gIsSeaMonkey) {
+        version = gBrowserVersion.split(".");
+        low_appversion = version[0]+"."+parseInt(version[1]);
+    }
+
+    if (gIsFirefox) {
+        current_app_id = APP_FIREFOX;
+        if (gIsMobile && (1 == APP_MOBILE)) {
+            current_app_id = APP_MOBILE;
+        }
+    } else if (gIsSeaMonkey) {
+        current_app_id = APP_SEAMONKEY;
+    }
+
+    default_low = ( ('' == '-1' || '' == '')  && current_app_id == 1) ? low_appversion : 'any';
+
+    
+    $("#lver-td input").remove();
+
+    var verArr =  versions[1];
+
+    var lverSel = document.createElement("select");
+    lverSel.id = "lver";
+    lverSel.name = "lver";
+    $("#lver-td").append(lverSel);
+    replaceOptions("#lver", verArr, default_low);
+
+
+    $("#appid").change(function () {
+            selected_app_id = $("#appid option:selected").attr("value");
+            default_low = (selected_app_id == current_app_id) ? low_appversion : 'any';
+            verArr =  versions[selected_app_id];
+            replaceOptions("#lver", verArr, default_low);
+        });
+
+        var adv = $('#advanced-search');
+    var advLink = $('#advanced-link a');
+    advLink.isHidden = true;
+    advLink.attr('href', '#'); // for ie6-7
+    advLink.click(function(e) {
+        if (advLink.isHidden) {
+            adv.appendTo("#search-form");
+            advLink.addClass("asopen");
+            advLink.removeClass("asclosed");
+            advLink.isHidden = false;
+        } else {
+            adv.appendTo("#hidden-form");
+            advLink.addClass("asclosed");
+            advLink.removeClass("asopen");
+            advLink.isHidden = true;
+        }
+        e.preventDefault();
+        return true;
+    });
+
+    
+    $(document).ready(function() {
+        var q = $("#query");
+        var l = $("#search-query label[for=query]");
+        var c = $("#cat");
+        l.click(function() { // for browsers with unclickable labels
+            q.focus();
+        });
+        q.focus(function() { // when field gains focus...
+            l.hide(); // hide the label
+        });
+        q.blur(function() { // when field loses focus...
+            if ( q.val() == "" ) { // if field is empty...
+                l.show(); // show the label again, else do nothing (label remains hidden)
+            };
+        });
+        c.change(function() {
+            if (c.val() == "collections") {
+                l.text("search for collections");
+                // most advanced fields do not apply to collection search
+                $('select:not(#appid,#pp),input', $('#advanced-search')).attr('disabled', 'disabled');
+            } else {
+                if (gIsMobile && (current_app_id == APP_MOBILE)) {
+                    l.text("search for mobile activities");
+                } else {
+                    l.text("search for activities");
+                }
+                $('select,input', $('#advanced-search')).attr('disabled', '');
+            }
+        });
+        c.change();
+
+        if (q.val() == "search for activities") { //initially q is set to search add-ons text for javascriptless browsing
+            q.val('');
+        }
+        if (q.val() != "") { // if field has any value...
+            l.hide(); // hide the label
+        } else {
+            q.blur();
+        };
+    });
+  // ]]>
+</script>
+
+<div class="error-notice">
+
+<h1>We’re sorry, but we can’t find what you’re looking for.</h1>
+
+<p>The page or file you requested wasn't found on our site. It's possible that you clicked a link that's out of date, or typed in the address incorrectly.</p>
+
+<ul>
+<li>If you typed in the address, please double check the spelling.</li>
+<li>If you followed a link from somewhere, please let us know at <a href="mailto:activities@sugarlabs.org" title="Page Not Found on Mozilla.com">activities@sugarlabs.org</a>. Tell us where you came from and what you were looking for, and we'll do our best to fix it.</li>
+</ul>
+
+<p>Or you can just jump over to some of the popular pages on our website.</p>
+
+<ul>
+<li>Are you interested in a <a href="/en-US/sugar/recommended">list of recommended add-ons</a>?</li>
+<li>Do you want to <a href="/en-US/sugar/search">search for add-ons</a>? You may go to the <a href="/en-US/sugar/search">search page</a> or just use the search field above.</li>
+<li>If you prefer to start over, just go to the <a href="/en-US/sugar/">add-ons front page</a>.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div> <!-- /.container -->
+<div id="footer" role="contentinfo">
+    <div class="section">
+        <div class="primary">
+
+                    <form class="languages go" method="get" action="">
+              <div>
+                <label for="language">Other languages:</label>
+                <select id="language" name="lang" dir="ltr">
+                <option value="ar" >عربي</option>
+<option value="ca" >català</option>
+<option value="cs" >Čeština</option>
+<option value="da" >Dansk</option>
+<option value="de" >Deutsch</option>
+<option value="en-US" selected="selected">English (US)</option>
+<option value="el" >Ελληνικά</option>
+<option value="es-ES" >Español (de España)</option>
+<option value="eu" >Euskara</option>
+<option value="fa" >فارسی</option>
+<option value="fi" >suomi</option>
+<option value="fr" >Français</option>
+<option value="ga-IE" >Gaeilge</option>
+<option value="he" >עברית</option>
+<option value="hu" >Magyar</option>
+<option value="id" >Bahasa Indonesia</option>
+<option value="it" >Italiano</option>
+<option value="ja" >日本語</option>
+<option value="ko" >한국어</option>
+<option value="mn" >Монгол</option>
+<option value="nl" >Nederlands</option>
+<option value="pl" >Polski</option>
+<option value="pt-BR" >Português (do Brasil)</option>
+<option value="pt-PT" >Português (Europeu)</option>
+<option value="ro" >română</option>
+<option value="ru" >Русский</option>
+<option value="sk" >slovenčina</option>
+<option value="sq" >Shqip</option>
+<option value="sv-SE" >Svenska</option>
+<option value="uk" >Українська</option>
+<option value="vi" >Tiếng Việt</option>
+<option value="zh-CN" >中文 (简体)</option>
+<option value="zh-TW" >正體中文 (繁體)</option>
+                </select>
+                <button type="submit">Go</button>
+              </div>
+            </form>
+        
+        <p>Except where otherwise <a href="http://www.mozilla.com/en-US/about/legal.html#site">noted</a>, content on this site is licensed under the<br /><strong><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share-Alike License v3.0</a></strong> or any later version<span title="aslo">.</span>
+        </p>
+        <ul>
+            <li><a href="/en-US/sugar/pages/privacy" >Privacy Policy</a></li>
+            <li><a href="http://www.mozilla.com/en-US/about/legal.html">Legal Notices</a></li>
+            <li><a href="/en-US/sugar/pages/credits" >Credits</a></li>            <li><a href="http://wiki.sugarlabs.org/go/Activity_Library/About" >About</a></li>
+            <li><a href="http://wiki.sugarlabs.org/go/Activity_Library/FAQ" ><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+            <li><a href="http://planet.sugarlabs.org/">Blog</a></li>
+            <li><a href="http://wiki.sugarlabs.org/go/Service/activities#Administrative_contact">Contacting Us</a></li>
+        </ul>
+
+        <p class="disclaimer">Sugar Labs is providing links to these applications as a courtesy, and makes no representations regarding the applications or any information related there to. Any questions, complaints or claims regarding the applications must be directed to the appropriate software vendor.</p>
+        </div>
+        <div class="secondary">
+            <img src="/img/amo2009/illustrations/logo-add-ons-half.png" alt="" />        </div>
+    </div> <!-- /.section -->
+</div> <!-- /#footer -->
+<!-- r52578 -->
+
+    </body>
+</html>
