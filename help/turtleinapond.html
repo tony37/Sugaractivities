@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Turtle in a Pond — Sugar 0.106 documentation</title>
+    
+    <link rel="stylesheet" href="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/default.css" type="text/css">
+    <link rel="stylesheet" href="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/pygments.css" type="text/css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.106',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/jquery.js"></script>
+    <script type="text/javascript" src="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/underscore.js"></script>
+    <script type="text/javascript" src="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/doctools.js"></script>
+    <link rel="author" title="About these documents" href="https://help.sugarlabs.org/en/about.html">
+    <link rel="top" title="Sugar 0.106 documentation" href="https://help.sugarlabs.org/en/index.html">
+    <link rel="next" title="Write" href="https://help.sugarlabs.org/en/write.html">
+    <link rel="prev" title="Turtle Confusion" href="https://help.sugarlabs.org/en/turtle_confusion.html"> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/write.html" title="Write" accesskey="N">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/turtle_confusion.html" title="Turtle Confusion" accesskey="P">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="turtle-in-a-pond">
+<span id="id1"></span><h1>Turtle in a Pond<a class="headerlink" href="#turtle-in-a-pond" title="Permalink to this headline">¶</a></h1>
+<p>Turtle in a Pond is a strategy game. The goal is to surround the turtle
+before it runs off the screen. (Turtle in a Pond was inspired by the
+game <a class="reference external" href="https://www.crazygames.com/game/circle-the-cat">Circle the
+Cat</a>.)</p>
+<div class="figure">
+<a class="reference internal image-reference" href="https://help.sugarlabs.org/en/_images/Turtle-in-a-pond.png"><img alt="Turtle-in-a-pond.png" src="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/Turtle-in-a-pond.png" style="width: 300px;"></a>
+</div>
+<div class="section" id="how-to-play-turtle-in-a-pond">
+<h2>How to play Turtle in a Pond<a class="headerlink" href="#how-to-play-turtle-in-a-pond" title="Permalink to this headline">¶</a></h2>
+<p>Click on the dots to keep the turtle from escaping.</p>
+<table class="docutils" border="1">
+<colgroup>
+<col width="49%">
+<col width="51%">
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><p class="first"><a class="reference internal" href="https://help.sugarlabs.org/en/_images/Turtle-in-a-pond-win.png"><img alt="Turtle-in-a-pond-win.png" src="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/Turtle-in-a-pond-win.png" style="width: 300px;"></a></p>
+<p class="last">The turtle is captured</p>
+</td>
+<td><p class="first"><a class="reference internal" href="https://help.sugarlabs.org/en/_images/Turtle-in-a-pond-lose.png"><img alt="Turtle-in-a-pond-lose.png" src="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/Turtle-in-a-pond-lose.png" style="width: 300px;"></a></p>
+<p class="last">The turtle escaped</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Did you know that:</p>
+<ul class="simple">
+<li>You can load your own <a class="reference external" href="#turtle-in-a-pond-strategy">strategy</a> for the turtle by
+importing Python code you can write with
+<a class="reference external" href="http://activities.sugarlabs.org/en-US/sugar/addon/4041">Pippy</a>?</li>
+</ul>
+<div class="section" id="the-toolbars">
+<h3>The Toolbars<a class="headerlink" href="#the-toolbars" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="TurtlePond_toolbar-1.png" src="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/TurtlePond_toolbar-1.png">
+</div>
+<p>from left to right</p>
+<ol class="arabic simple">
+<li>the Activity toolbar button (shown in the open position)</li>
+<li>the New-game button</li>
+<li>the Beginner level (uses beginner strategy below)</li>
+<li>the Intermediate level (uses intermediate strategy below)</li>
+<li>the Expert level (uses expert strategy below)</li>
+<li>the Custom level (uses user-designed strategy below)</li>
+<li>an area for messages</li>
+<li>the Load-new-strategy button</li>
+<li>the Activity stop button</li>
+</ol>
+</div>
+</div>
+<div class="section" id="turtle-in-a-pond-strategy">
+<span id="id2"></span><h2>Strategy<a class="headerlink" href="#turtle-in-a-pond-strategy" title="Permalink to this headline">¶</a></h2>
+<p>Cut and paste these examples into Pippy and save then to your Sugar
+Journal. Then use the Load-new-strategy button in the Turtle-in-a-Pond
+Activity to try them. They are written in Python, you can learn about
+Python by reading the <a class="reference external" href="http://docs.python.org/">Python Documentation</a></p>
+<p>In this strategy, the turtle moves down regardless of whether the dot is
+open.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">_turtle_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">turtle</span><span class="p">):</span>
+    <span class="n">turtle</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>In this strategy, the turtle moves down until it is blocked (i.e., when
+the dot type is True).</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">_turtle_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">turtle</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">_grid_to_dot</span><span class="p">((</span><span class="n">turtle</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">turtle</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="mi">1</span><span class="p">))]</span><span class="o">.</span><span class="n">type</span><span class="p">:</span>
+       <span class="n">turtle</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>In this strategy, the turtle searches for an open dot, looking
+clockwise.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">_turtle_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">turtle</span><span class="p">):</span>
+    <span class="n">dots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_surrounding_dots</span><span class="p">(</span><span class="n">turtle</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>  <span class="c"># search for an opening</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>In this version, the turtle orientation is set as well.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">_turtle_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">turtle</span><span class="p">):</span>
+    <span class="n">dots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_surrounding_dots</span><span class="p">(</span><span class="n">turtle</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>  <span class="c"># search for an opening</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="n">i</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>The turtle choose a random direction and goes there if the dot is open.
+(This is the beginner strategy.)</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">_turtle_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">turtle</span><span class="p">):</span>
+    <span class="n">dots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_surrounding_dots</span><span class="p">(</span><span class="n">turtle</span><span class="p">)</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>  <span class="c"># choose a random orientation</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>  <span class="c"># search for an opening</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots</span><span class="p">[(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>In this strategy, the turtle will go off the edge if it can. (This is
+the intermediate strategy.)</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">_turtle_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">turtle</span><span class="p">):</span>
+    <span class="n">dots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_surrounding_dots</span><span class="p">(</span><span class="n">turtle</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>  <span class="c"># search for an edge</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="n">i</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>  <span class="c"># choose a random orientation</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>  <span class="c"># search for an opening</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots</span><span class="p">[(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>In this version, it looks for a path to the edge in the direction it was
+already heading.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">_turtle_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">turtle</span><span class="p">):</span>
+    <span class="n">dots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_surrounding_dots</span><span class="p">(</span><span class="n">turtle</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>  <span class="c"># search for an edge</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="n">i</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_daylight_ahead</span><span class="p">(</span><span class="n">turtle</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span><span class="p">])</span>
+
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>  <span class="c"># choose a random orientation</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>  <span class="c"># search for an opening</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots</span><span class="p">[(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>A weighing function is used: preference is given to dots closer to the
+edges.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">_turtle_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">turtle</span><span class="p">):</span>
+    <span class="n">dots_ordered_by_weight</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_ordered_weights</span><span class="p">(</span><span class="n">turtle</span><span class="p">)</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots_ordered_by_weight</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots_ordered_by_weight</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">elif</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots_ordered_by_weight</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots_ordered_by_weight</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>This is the expert strategy.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">_turtle_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">turtle</span><span class="p">):</span>
+    <span class="n">dots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_surrounding_dots</span><span class="p">(</span><span class="n">turtle</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="n">i</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">dots_ordered_by_weight</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_ordered_weights</span><span class="p">(</span><span class="n">turtle</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="n">dots</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">dots_ordered_by_weight</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_daylight_ahead</span><span class="p">(</span><span class="n">turtle</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span><span class="p">])</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dots</span><span class="p">[</span><span class="n">dots</span><span class="p">[(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span><span class="p">]]</span><span class="o">.</span><span class="n">type</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dot_to_grid</span><span class="p">(</span><span class="n">dots</span><span class="p">[(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span><span class="p">])</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_orientation</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span> <span class="o">%</span> <span class="mi">6</span>
+    <span class="k">return</span> <span class="n">turtle</span>
+</pre></div>
+</div>
+<p>The dots are stored in a 13✕13 array. Each dot has an attribute, ‘type’,
+that determines it status. The edges have a type=None. Occupied dots
+have a type=True. Unoccupied dots have a type=False.</p>
+<p>Your strategy should start with:</p>
+<p><tt class="docutils literal"><span class="pre">def&nbsp;_turtle_strategy(self,&nbsp;turtle):</span></tt></p>
+<p>The turtle argument is a tuple containing the column and row of the
+current turtle position. That is, turtle[0] is the horizontal position
+and turtle[1] is the vertical position.</p>
+<p>Your strategy should return a tuple containing the column and row of the
+new turtle position, e.g.,</p>
+<p><tt class="docutils literal"><span class="pre">return&nbsp;[column,&nbsp;row]</span></tt></p>
+</div>
+<div class="section" id="resources">
+<h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<p>There are some resources that you can use in your program, including:</p>
+<dl class="docutils">
+<dt><strong>self._surrounding_dots((column, row))</strong></dt>
+<dd>returns an array of dots surrounding a given position in the grid</dd>
+<dt><strong>self._daylight_ahead((column, row))</strong></dt>
+<dd>returns True if there is a clear path to the edge heading in the current direction</dd>
+<dt><strong>self._ordered_weights((column, row))</strong></dt>
+<dd>returns an array of surrounding dots ordered by their distance from the edge</dd>
+<dt><strong>self._dots</strong></dt>
+<dd>the array of dots from which you can test the type attribute 
+(self._dots[i].type==None → edge; self._dots[i].type==False → open; 
+self._dots[i].type==True → blocked)</dd>
+<dt><strong>self._orientation</strong></dt>
+<dd>you can set the orientation of your turtle by assigning a number from 0-5 (clockwise beginning with 30 degrees from north)</dd>
+<dt><strong>self._set_label(‘your message here’)</strong></dt>
+<dd>you can write a message on the toolbar if you want to communicate what your turtle is thinking</dd>
+<dt><strong>self._grid_to_dot((column, row))</strong></dt>
+<dd>returns the dot that is at a grid position (column, row)</dd>
+<dt><strong>self._dot_to_grid(dot):</strong></dt>
+<dd>returns an array (column, row) representing the grid position of a dot</dd>
+</dl>
+</div>
+<div class="section" id="digging-deeper">
+<h2>Digging deeper<a class="headerlink" href="#digging-deeper" title="Permalink to this headline">¶</a></h2>
+<p>To better understand how to use the above resources, view the program
+source. Look at game.py for code relating to game strategy.
+<a class="reference external" href="https://wiki.sugarlabs.org/go/View_Source">View_Source</a></p>
+<div class="figure">
+<a class="reference internal image-reference" href="https://help.sugarlabs.org/en/_images/Turtle-in-a-pond-viewsource.png"><img alt="&quot;Turtle_in_a_Pond_Activity&quot;_viewsource.png" src="Turtle%20in%20a%20Pond%20%E2%80%94%20Sugar%200.106%20documentation_files/Turtle-in-a-pond-viewsource.png" style="width: 400px;"></a>
+</div>
+<p>If your Sugar distribution includes the Gnome editor GEdit, you can use
+it to view and edit the program source. In Terminal type</p>
+<p><tt class="docutils literal"><span class="pre">gedit</span></tt></p>
+<p>You will find the program source at</p>
+<p><tt class="docutils literal"><span class="pre">/home/olpc/Activities/TurtleinaPond.activity</span></tt></p>
+<p>See
+<a class="reference external" href="https://wiki.sugarlabs.org/go/Activity_Team/Modifing_an_Activity">Activity_Team/Modifing_an_Activity</a>
+for other methods for viewing and editing the source.</p>
+</div>
+<div class="section" id="where-to-get-turtle-in-a-pond">
+<h2>Where to get Turtle in a Pond<a class="headerlink" href="#where-to-get-turtle-in-a-pond" title="Permalink to this headline">¶</a></h2>
+<p>The Turtle in a Pond activity is available for download from the <a class="reference external" href="http://activities.sugarlabs.org/">Sugar
+Activity Library</a>: <a class="reference external" href="http://activities.sugarlabs.org/en-US/sugar/addon/4516">Turtle in a
+Pond</a></p>
+<p>The source code is available on <a class="reference external" href="https://github.com/sugarlabs/turtlepond">GitHub</a>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="https://help.sugarlabs.org/en/index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Turtle in a Pond</a><ul>
+<li><a class="reference internal" href="#how-to-play-turtle-in-a-pond">How to play Turtle in a Pond</a><ul>
+<li><a class="reference internal" href="#the-toolbars">The Toolbars</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#turtle-in-a-pond-strategy">Strategy</a></li>
+<li><a class="reference internal" href="#resources">Resources</a></li>
+<li><a class="reference internal" href="#digging-deeper">Digging deeper</a></li>
+<li><a class="reference internal" href="#where-to-get-turtle-in-a-pond">Where to get Turtle in a Pond</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/write.html" title="Write">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/turtle_confusion.html" title="Turtle Confusion">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        © Copyright 2015, SugarLabs.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  
+</body></html>

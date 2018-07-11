@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Calculate — Sugar 0.106 documentation</title>
+    
+    <link rel="stylesheet" href="Calculate%20%E2%80%94%20Sugar%200.106%20documentation_files/default.css" type="text/css">
+    <link rel="stylesheet" href="Calculate%20%E2%80%94%20Sugar%200.106%20documentation_files/pygments.css" type="text/css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.106',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="Calculate%20%E2%80%94%20Sugar%200.106%20documentation_files/jquery.js"></script>
+    <script type="text/javascript" src="Calculate%20%E2%80%94%20Sugar%200.106%20documentation_files/underscore.js"></script>
+    <script type="text/javascript" src="Calculate%20%E2%80%94%20Sugar%200.106%20documentation_files/doctools.js"></script>
+    <link rel="author" title="About these documents" href="https://help.sugarlabs.org/en/about.html">
+    <link rel="top" title="Sugar 0.106 documentation" href="https://help.sugarlabs.org/en/index.html">
+    <link rel="next" title="Chat" href="https://help.sugarlabs.org/en/chat.html">
+    <link rel="prev" title="Browse" href="https://help.sugarlabs.org/en/browse.html"> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/chat.html" title="Chat" accesskey="N">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/browse.html" title="Browse" accesskey="P">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="calculate">
+<h1>Calculate<a class="headerlink" href="#calculate" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Activity-Calculate.png" src="Calculate%20%E2%80%94%20Sugar%200.106%20documentation_files/Activity-Calculate.png">
+</div>
+<div class="section" id="using-calculate">
+<h2>Using Calculate<a class="headerlink" href="#using-calculate" title="Permalink to this headline">¶</a></h2>
+<p>For those who have used a scientific calculator, most of the functions of Calculate will be quite familiar.</p>
+<p>The Toolbars are</p>
+<ul class="simple">
+<li>Activity, Calculate icon: Name session, Journal entry description, collaborate</li>
+<li>Edit, scissors icon: Copy, Paste</li>
+<li>Functions, {x}: Square, square root, reciprocal, exponential, power, logarithm, factorial</li>
+<li>Trigonometry, triangle icon: sin, cos, tan, sin-1, cos-1, tan-1, sinh, cosh, tanh</li>
+<li>Boolean, Venn diagram icon: and, or, =, !=</li>
+<li>Constants, Greek letters icon: pi, e, gamma, phi</li>
+<li>Plot: Hover menu offers Help</li>
+<li>Degrees/Radian angle measure</li>
+<li>Scientific/Engineering notation</li>
+<li>Number of digits to show: 6, 9, 12, 15</li>
+<li>Base: Decimal, binary, octal, hex</li>
+<li>Exit</li>
+</ul>
+</div>
+<div class="section" id="getting-help">
+<h2>Getting help<a class="headerlink" href="#getting-help" title="Permalink to this headline">¶</a></h2>
+<p>To see a help option for plot, enter the command</p>
+<p><tt class="docutils literal"><span class="pre">help(plot)</span></tt></p>
+<p>on the text entry line.</p>
+<p>The general help function is</p>
+<p><tt class="docutils literal"><span class="pre">help()</span></tt></p>
+<p>The list of help topics is available with the command</p>
+<p><tt class="docutils literal"><span class="pre">help(index)</span></tt></p>
+<p>including topics not supported on the menus. Help is not provided for
+ the constants pi, e, gamma (Euler-Mascheroni Constant) and phi (Golden 
+Ratio), but these can be looked up on the Internet. Clicking their icons
+ inserts their numeric values.</p>
+</div>
+<div class="section" id="functions-in-calculate">
+<h2>Functions in Calculate<a class="headerlink" href="#functions-in-calculate" title="Permalink to this headline">¶</a></h2>
+<p>These are the list of functions available in Calculate Activity:</p>
+<ul class="simple">
+<li>abs(x) - return absolute value of x, which means -x for x &lt; 0</li>
+<li>acos(x) - return the arc cosine of x. This is the angle for which the cosine is x. Defined for -1 &lt;= x &lt; 1</li>
+<li>acosh(x) - return the arc hyperbolic cosine of x. This is the value y for which the hyperbolic cosine equals x.</li>
+<li>and(x, y) - logical and returns True if x and y are True, else returns False</li>
+<li>add(x, y) - return x + y</li>
+<li>asin(x) - return the arc sine of x. This is the angle for which the sine is x. Defined for -1 &lt;= x &lt;= 1</li>
+<li>asinh(x) - return the arc hyperbolic sine of x. This is the value y for which the hyperbolic sine equals x.</li>
+<li>atan(x) - return the arc tangent of x. This is the angle for which the tangent is x. Defined for all x</li>
+<li>atanh(x) - return the arc hyperbolic tangent of x. This is the value y for which the hyperbolic tangent equals x.</li>
+<li>b10bin(x) - interpret a number written in base 10 as binary, e.g.: b10bin(10111) = 23.</li>
+<li>ceil(x) - return the smallest integer larger than x.</li>
+<li>cos(x) - return the cosine of x. This is the x-coordinate on the unit circle at the angle x</li>
+<li>cosh(x) - return the hyperbolic cosine of x. Given by (exp(x) + exp(-x)) / 2</li>
+<li>div(x, y) - returns x/y where y!=0.</li>
+<li>gcd(a, b) - determine the greatest common denominator of a and b.For
+ example, the biggest factor that is shared by the numbers 15 and 18 is 
+3.</li>
+<li>exp(x) - return the natural exponent of x. Given by e^x</li>
+<li>factorial(n) - return the factorial of n. Given by n * (n - 1) * (n - 2) * ... * 1</li>
+<li>factorize(x) - determine the prime factors that together form x. For examples: 15 = 3 * 5.</li>
+<li>floor(x) - return the largest integer smaller than x.</li>
+<li>inv(x) - return the inverse of x, which is 1 / x</li>
+<li>is_int(n) - determine whether n is an integer.</li>
+<li>is_prime(x) - Check if a number is a prime.For examples: is_prime(2).</li>
+<li>ln(x) - return the natural logarithm of x. This is the value for which the exponent exp() equals x. Defined for x &gt;= 0.</li>
+<li>log10(x) - return the base 10 logarithm of x. This is the value y for which 10^y equals x. Defined for x &gt;= 0.</li>
+<li>mod(x, y) - return the modulus of x with respect to y. This is the remainder after dividing x by y.</li>
+<li>mul(x, y) - return x * y</li>
+<li>negate(x) - return -x</li>
+<li>or(x, y) - logical or. Returns True if x or y is True, else returns False</li>
+<li>pow(x, y) - return x to the power y (x**y)</li>
+<li>rand_float() - return a random floating point number between 0.0 and 1.0</li>
+<li>rand_int([&lt;maxval&gt;]) - return a random integer between 0 and 
+&lt;maxval&gt;.&lt;maxval&gt; is an optional argument and is set to 
+65535 by default.</li>
+<li>round(x) - return the integer nearest to x.</li>
+<li>shift_left(x, y) - shift x by y bits to the left (multiply by 2 per bit)</li>
+<li>shift_right(x, y) - shift x by y bits to the right (divide by 2 per bit)</li>
+<li>sin(x) - return the sine of x. This is the y-coordinate on the unit circle at the angle x</li>
+<li>sinh(x) - return the hyperbolic sine of x. Given by (exp(x) - exp(-x)) / 2</li>
+<li>sinc(x) - return the sinc of x. This is given by sin(x) / x.</li>
+<li>sqrt(x) - return the square root of x. This is the value for which the square equals x. Defined for x &gt;= 0.</li>
+<li>square(x) - return x * x</li>
+<li>sub(x, y) - return x - y</li>
+<li>tan(x) - return the tangent of x. This is the slope of the line from
+ the origin of the unit circle to the point on the unit circle defined 
+by the angle x. Given by sin(x) / cos(x)</li>
+<li>tanh(x) - return the hyperbolic tangent of x. Given by sinh(x) / cosh(x)</li>
+<li>xor(x, y) - logical xor. Returns True if either x is True (and y is False) or y is True (and x is False), else returns False</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="https://help.sugarlabs.org/en/index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Calculate</a><ul>
+<li><a class="reference internal" href="#about">About</a></li>
+<li><a class="reference internal" href="#using-calculate">Using Calculate</a></li>
+<li><a class="reference internal" href="#getting-help">Getting help</a></li>
+<li><a class="reference internal" href="#functions-in-calculate">Functions in Calculate</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/chat.html" title="Chat">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/browse.html" title="Browse">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        © Copyright 2015, SugarLabs.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  
+</body></html>

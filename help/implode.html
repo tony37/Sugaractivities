@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Implode — Sugar 0.106 documentation</title>
+    
+    <link rel="stylesheet" href="Implode%20%E2%80%94%20Sugar%200.106%20documentation_files/default.css" type="text/css">
+    <link rel="stylesheet" href="Implode%20%E2%80%94%20Sugar%200.106%20documentation_files/pygments.css" type="text/css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.106',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="Implode%20%E2%80%94%20Sugar%200.106%20documentation_files/jquery.js"></script>
+    <script type="text/javascript" src="Implode%20%E2%80%94%20Sugar%200.106%20documentation_files/underscore.js"></script>
+    <script type="text/javascript" src="Implode%20%E2%80%94%20Sugar%200.106%20documentation_files/doctools.js"></script>
+    <link rel="author" title="About these documents" href="https://help.sugarlabs.org/en/about.html">
+    <link rel="top" title="Sugar 0.106 documentation" href="https://help.sugarlabs.org/en/index.html">
+    <link rel="next" title="IRC" href="https://help.sugarlabs.org/en/irc.html">
+    <link rel="prev" title="Help" href="https://help.sugarlabs.org/en/help.html"> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/irc.html" title="IRC" accesskey="N">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/help.html" title="Help" accesskey="P">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="implode">
+<h1>Implode<a class="headerlink" href="#implode" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<p><img alt="Implode_icon" src="Implode%20%E2%80%94%20Sugar%200.106%20documentation_files/implode-icon.png"> Implode blocks of the same colour until they are all gone.</p>
+<p>Implode is a logic game based on the “falling block” model of Tetris.
+  The game starts with a grid partially filled with blocks.  Make a move
+ by removing adjacent blocks of the same color in groups of three or 
+more.  When blocks are removed, higher blocks fall to fill their space, 
+and when a column is cleared, the blocks on either side close to fill 
+the gap.  The object of the game is to remove all the blocks.  Since the
+ patterns of blocks above changes when lower blocks are removed, you 
+must carefully decide what order in which to remove the blocks so that 
+there are no isolated blocks left at the end of the game.</p>
+<p>(The levels are generated in such a way that there is always a sequence of removals that clears the board.)</p>
+<img alt="_images/implode-image1.png" src="Implode%20%E2%80%94%20Sugar%200.106%20documentation_files/implode-image1.png">
+</div>
+<div class="section" id="how-to-play">
+<h2>How to play<a class="headerlink" href="#how-to-play" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>the game starts up with a field of blocks.</li>
+<li>using the mouse pointer, or touchscreen, click on a block that is in
+ a group of three or more of the same color (clickable groups highlight 
+as you pass the mouse cursor over them). Clicking on a group removes it 
+and compacts the playing field.</li>
+<li>continue clicking groups of blocks until the board is cleared.</li>
+</ul>
+</div>
+<div class="section" id="stuck">
+<h2>Stuck?<a class="headerlink" href="#stuck" title="Permalink to this headline">¶</a></h2>
+<p>If you get stuck with leftover blocks, you can:</p>
+<ul class="simple">
+<li>Click the Undo icon in the toolbar to undo some moves so that you can try again.</li>
+<li>Click the Restart icon in the toolbar to try the puzzle again from the beginning.</li>
+<li>Click the New icon in the tool bar to try a different puzzle.</li>
+</ul>
+</div>
+<div class="section" id="keyboard-shortcuts">
+<h2>Keyboard Shortcuts<a class="headerlink" href="#keyboard-shortcuts" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Arrow keys to select blocks to implode.</li>
+<li>Enter key to implode selected blocks, or start a new game once the level is cleared.</li>
+</ul>
+<p>On an XO laptop, the game can also be played via the game keys and directional pad:</p>
+<ul class="simple">
+<li>Use the directional pad to move the selection cursor.</li>
+<li>Use the checkmark game key to remove a selected group of blocks.</li>
+<li>Use the circle game key to undo a move.</li>
+<li>Use the X game key to redo a move.</li>
+<li>Use the square game key to start a new game (only when the level is cleared).</li>
+</ul>
+</div>
+<div class="section" id="download">
+<h2>Download<a class="headerlink" href="#download" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://activities.sugarlabs.org/sugar/addon/4086">Implode</a></p>
+</div>
+<div class="section" id="development">
+<h2>Development<a class="headerlink" href="#development" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/quozl/implode-activity">Git Repository</a></p>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Implode">Wiki Page</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="https://help.sugarlabs.org/en/index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Implode</a><ul>
+<li><a class="reference internal" href="#about">About</a></li>
+<li><a class="reference internal" href="#how-to-play">How to play</a></li>
+<li><a class="reference internal" href="#stuck">Stuck?</a></li>
+<li><a class="reference internal" href="#keyboard-shortcuts">Keyboard Shortcuts</a></li>
+<li><a class="reference internal" href="#download">Download</a></li>
+<li><a class="reference internal" href="#development">Development</a></li>
+<li><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/irc.html" title="IRC">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/help.html" title="Help">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        © Copyright 2015, SugarLabs.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  
+</body></html>

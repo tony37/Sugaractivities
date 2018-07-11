@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Labyrinth — Sugar 0.106 documentation</title>
+    
+    <link rel="stylesheet" href="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/default.css" type="text/css">
+    <link rel="stylesheet" href="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/pygments.css" type="text/css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.106',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/jquery.js"></script>
+    <script type="text/javascript" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/underscore.js"></script>
+    <script type="text/javascript" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/doctools.js"></script>
+    <link rel="author" title="About these documents" href="https://help.sugarlabs.org/en/about.html">
+    <link rel="top" title="Sugar 0.106 documentation" href="https://help.sugarlabs.org/en/index.html">
+    <link rel="next" title="Log" href="https://help.sugarlabs.org/en/log.html">
+    <link rel="prev" title="Jukebox" href="https://help.sugarlabs.org/en/jukebox.html"> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/log.html" title="Log" accesskey="N">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/jukebox.html" title="Jukebox" accesskey="P">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="labyrinth">
+<h1>Labyrinth<a class="headerlink" href="#labyrinth" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<p><img alt="Laby_ico" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/labyrinth-ico1.png">
+ Labyrinth is a lightweight mind-mapping activity based on an Open 
+Source project called Labyrinth. It allows creating mind maps from a 
+mixture of text, freehand drawings, and images from your Journal. There 
+is an infinite sized canvas for your map that can be panned and zoomed 
+while you work. Maps can be “Kept to PDF” for uploading to web sites, 
+sharing, and printing by others who may not be using Sugar.</p>
+</div>
+<div class="section" id="gallery">
+<h2>Gallery<a class="headerlink" href="#gallery" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/labyrinth-image1.png" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/labyrinth-image1.png">
+<img alt="_images/labyrinth-image2.png" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/labyrinth-image2.png">
+<img alt="_images/labyrinth-image3.png" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/labyrinth-image3.png">
+<img alt="_images/labyrinth-image4.png" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/labyrinth-image4.png">
+<img alt="_images/labyrinth-image5.png" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/labyrinth-image5.png">
+<img alt="_images/labyrinth-image6.png" src="Labyrinth%20%E2%80%94%20Sugar%200.106%20documentation_files/labyrinth-image6.png">
+</div>
+<div class="section" id="keyboard-shortcuts">
+<h2>Keyboard Shortcuts<a class="headerlink" href="#keyboard-shortcuts" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Esc deselects thought, stops editing current text though</li>
+<li>Ctrl + A select all thoughts</li>
+<li>Ctrl + E for Edit mode (bounding box selections, and allows editing of existing thoughts)</li>
+<li>Ctrl + T for text thought mode (click canvas, or click and drag, to add new thoughts)</li>
+<li>Ctrl + D for drawing mode (click canvas, or click and drag, then draw inside thought boundary)</li>
+<li>Ctrl + I for image add mode (click canvas, or click and drag, use Journal object picker to select image)</li>
+<li>Ctrl + L to link two or more selected thoughts</li>
+<li>ERASE to erase one or more selected thoughts</li>
+<li>Ctrl + + to zoom in</li>
+<li>Ctrl + - to zoom out</li>
+<li>Ctrl + 9 zoom to fit window</li>
+<li>Ctrl + 0 for original zoom size</li>
+<li>Alt + Enter to toggle full screen</li>
+<li>Ctrl + Q or Alt + Esc to stop the activity</li>
+</ul>
+</div>
+<div class="section" id="mouse-trackpad-shortcuts">
+<h2>Mouse/Trackpad shortcuts<a class="headerlink" href="#mouse-trackpad-shortcuts" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Single click on the canvas with left button in text/drawing/image mode to create a thought</li>
+<li>Drag with left button in text/drawing/image mode to create a thought of a specific size</li>
+<li>Single click left button to select an existing thought (typing will append to the thought text)</li>
+<li>Double click left button to select a thought and begin editing the text content (all thought text starts selected)</li>
+<li>Hold shift and left click thoughts to make multiple selections</li>
+<li>Hold ‘hand’ key on XO keyboard and use left button to drag the canvas to pan/scroll</li>
+<li>Hold right button to drag individual thoughts</li>
+<li>When in drawing mode, hold Shift and draw to erase</li>
+</ul>
+</div>
+<div class="section" id="review">
+<h2>Review<a class="headerlink" href="#review" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://www.youtube.com/watch?v=h8Mcc0toS0M">Video Review</a></p>
+</div>
+<div class="section" id="resources">
+<h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://activities.sugarlabs.org/en-US/sugar/addon/4078">Activity Library Page</a></li>
+<li><a class="reference external" href="http://git.sugarlabs.org/projects/labyrinth">Source</a></li>
+<li><a class="reference external" href="http://download.sugarlabs.org/sources/honey/Labyrinth/">Source tarball</a></li>
+</ul>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Labyrinth">Wiki page</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="https://help.sugarlabs.org/en/index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Labyrinth</a><ul>
+<li><a class="reference internal" href="#about">About</a></li>
+<li><a class="reference internal" href="#gallery">Gallery</a></li>
+<li><a class="reference internal" href="#keyboard-shortcuts">Keyboard Shortcuts</a></li>
+<li><a class="reference internal" href="#mouse-trackpad-shortcuts">Mouse/Trackpad shortcuts</a></li>
+<li><a class="reference internal" href="#review">Review</a></li>
+<li><a class="reference internal" href="#resources">Resources</a></li>
+<li><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/log.html" title="Log">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/jukebox.html" title="Jukebox">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        © Copyright 2015, SugarLabs.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  
+</body></html>

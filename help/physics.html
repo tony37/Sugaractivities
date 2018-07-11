@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Physics — Sugar 0.106 documentation</title>
+    
+    <link rel="stylesheet" href="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/default.css" type="text/css">
+    <link rel="stylesheet" href="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/pygments.css" type="text/css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.106',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/jquery.js"></script>
+    <script type="text/javascript" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/underscore.js"></script>
+    <script type="text/javascript" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/doctools.js"></script>
+    <link rel="author" title="About these documents" href="https://help.sugarlabs.org/en/about.html">
+    <link rel="top" title="Sugar 0.106 documentation" href="https://help.sugarlabs.org/en/index.html">
+    <link rel="next" title="Poll" href="https://help.sugarlabs.org/en/poll.html">
+    <link rel="prev" title="Pippy" href="https://help.sugarlabs.org/en/pippy.html"> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/poll.html" title="Poll" accesskey="N">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/pippy.html" title="Pippy" accesskey="P">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="physics">
+<h1>Physics<a class="headerlink" href="#physics" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Physics-activity.png" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/Physics-activity.png">
+<p>Physics is a physical world simulator and playground. You can add 
+squares, circles, triangles, or draw your own shapes, and see them come 
+to life with forces (think gravity, Newton!), friction (scrrrrape), and 
+inertia (ahh, slow down!).</p>
+</div>
+<div class="section" id="getting-to-know-the-tools">
+<h2>Getting to know the tools<a class="headerlink" href="#getting-to-know-the-tools" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Physics-tools-annotated.png" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/Physics-tools-annotated.png">
+<p>This image shows all the tools used for creating objects. Reference the number shown below the tool to learn what it does.</p>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Magic Pen Tool:</dt>
+<dd><p class="first last">Draw anything and it will appear in the canvas. You can use it to create custom shapes, or a surface. Like a slope.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Circle Tool:</dt>
+<dd><p class="first last">You can make circles with it, just drag. Try rolling a circle down a slope.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Triangle Tool:</dt>
+<dd><p class="first last">You can make equilateral triangles (all sides 
+equal) with this tool. Try making a seesaw by combining a triangle and a
+ rectangle (described below).</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Rectangle Tool:</dt>
+<dd><p class="first last">For making rectangles.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Polygon Tool:</dt>
+<dd><p class="first last">You can make multi-sided shapes with this 
+tool. Drag the mouse, then click on place where the vertices of the 
+polygon should be. after you are finished, click in the circle 
+surrounding the first dot you drew and the shape will be drawn.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Grab Tool:</dt>
+<dd><p class="first">You can move objects around with this tool. You can
+ use it even when the game is running: Try grabbing an object and moving
+ it around. It can be really fun.</p>
+<p>When the game is paused, you can use dragging to move objects with 
+more precision. You can also drag pins and motors. When you select the 
+grab tool, the pins and motors will become bigger so that you can easily
+ hold and drag.</p>
+<blockquote class="last">
+<div><p><strong>ProTip</strong>: You can move motors and pins from one 
+object to another. Also, moving them out of the body and dropping them 
+in empty space deletes them.</p>
+</div></blockquote>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Motor Tool:</dt>
+<dd><p class="first last">With this tool, you can place a motor on an 
+object. The object will then start rotating around that point. You can 
+also change the speed with which it rotates, as will be explained in the
+ Palette section.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Pin Tool:</dt>
+<dd><p class="first last">This tool allows you to make objects stick to 
+the background and not move around, very much like pinning a paper to a 
+clipboard. Just click where you want to place a pin.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Joint Tool:</dt>
+<dd><p class="first last">With this tool you can attach objects to other
+ objects. Click on the point at which you want to attach the joint in 
+the first object and drag the mouse over to the point at which you want 
+the joint to end on the second object. Done!</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Rope Tool:</dt>
+<dd><p class="first last">Joints are like iron bars, they cannot bend. 
+If you need rope, this tool does it for you. Just click and drag to make
+ the rope. Be careful though, removing ropes once they have been made 
+can be difficult.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Trace Tool:</dt>
+<dd><p class="first last">Want to see how and where an object is moving?
+ Put a tracer on it! Select this tool and click on the point on the 
+object you want to trace. You can delete a tracer by left clicking with 
+the destroy tool (below)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Destroy Tool:</dt>
+<dd><p class="first last">Select this tool and drag to leave a trail of 
+destruction behind! You not only use this tool to destroy objects, but 
+also pins, motors and tracers. A single left click deletes one 
+pin/motor/tracer on the object. Since ropes are just small balls joined 
+with small joints, you can try deleting them too, but it takes time and 
+is mildly annoying. Therefore try to make rope only when you are sure 
+you want it.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<p><strong>ProTip</strong>: If you’ve drawn with a tool before and want 
+multiple copies of the same shape, just do a left-click and the same 
+object with be drawn again. Try it with the Rectangle tool! Draw a 
+square and then left click again, you’ll get another copy of the square.</p>
+</div>
+<div class="section" id="other-cool-features">
+<h2>Other cool features<a class="headerlink" href="#other-cool-features" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Physics-erase-all.png" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/Physics-erase-all.png">
+<p>Using this button, you can erase everything from the canvas. Careful, you cannot undo this!</p>
+<img alt="_images/Physics-erase-trace.png" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/Physics-erase-trace.png">
+<p>This button allows you to delete all trace marks on the canvas.</p>
+<img alt="_images/Physics-start-button.png" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/Physics-start-button.png">
+<img alt="_images/Physics-stop-button.png" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/Physics-stop-button.png">
+<p>These two buttons allow you to pause or start the game. The first 
+button makes the game start again after a pause and the second stops it.
+ These are ultra useful while building complicated machines, which you 
+cannot build while the machine is running.</p>
+<p>All of the objects have palette menus to adjust object properties:</p>
+<img alt="_images/Physics-object-properties.png" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/Physics-object-properties.png">
+<dl class="docutils">
+<dt>Mass</dt>
+<dd>feather, wood, and anvil represent light to dense</dd>
+<dt>Bounciness</dt>
+<dd>basketball, baseball, and bowling ball represent very bouncy to inelastic</dd>
+<dt>Friction</dt>
+<dd>ice skate, shoe, and sneaker represent low to high coefficient of friction</dd>
+</dl>
+<img alt="_images/Physics-motor-properties.png" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/Physics-motor-properties.png">
+<p>The motor has a palette to set speed (fast and slow) and direction (counter-clockwise and clockwise)</p>
+<img alt="_images/Physics-chain-properties.png" src="Physics%20%E2%80%94%20Sugar%200.106%20documentation_files/Physics-chain-properties.png">
+<p>The chain has a palette to set the coarseness and weight of the chain elements</p>
+</div>
+<div class="section" id="ideas-to-try">
+<h2>Ideas to try<a class="headerlink" href="#ideas-to-try" title="Permalink to this headline">¶</a></h2>
+<p>Here are some ideas you could try:</p>
+<ul class="simple">
+<li>Build a catapult to simulate Angry Birds</li>
+<li>Build a machine that sorts different sized balls in to two buckets, large and small, with no ball jams.</li>
+<li>A cyclic mechanism for lifting balls from the bottom of the screen to the top, again and again.</li>
+<li>Try dropping 2 different mass objects at the same time.</li>
+<li>Experiment with pendulums of different lengths and masses.</li>
+<li>Ping pong, can you make a device that hits a ball back and forth across the screen?</li>
+<li>Try building a mechanical binary clock.</li>
+<li>Convert rotation into parallel motion using pistons.</li>
+<li>Experiment with touching one motorised circle against one pinned circle of various sizes.</li>
+<li>Try building a rag-doll puppet and make it dance in a convincing way.</li>
+<li>Use just links and circles to make a structurally sound Eiffel Tower.</li>
+<li>Try building a ratchet mechanism.</li>
+<li>Try building an analogue clock face where the min hand goes around 60 times for each hour.</li>
+<li>Modify the program itself: <a class="reference external" href="http://wiki.sugarlabs.org/go/Activity_Team/Modifing_an_Activity#Modifying_Physics">Modifying Physics</a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="https://help.sugarlabs.org/en/index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Physics</a><ul>
+<li><a class="reference internal" href="#about">About</a></li>
+<li><a class="reference internal" href="#getting-to-know-the-tools">Getting to know the tools</a></li>
+<li><a class="reference internal" href="#other-cool-features">Other cool features</a></li>
+<li><a class="reference internal" href="#ideas-to-try">Ideas to try</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/poll.html" title="Poll">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/pippy.html" title="Pippy">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        © Copyright 2015, SugarLabs.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  
+</body></html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Paint — Sugar 0.106 documentation</title>
+    
+    <link rel="stylesheet" href="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/default.css" type="text/css">
+    <link rel="stylesheet" href="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/pygments.css" type="text/css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.106',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/jquery.js"></script>
+    <script type="text/javascript" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/underscore.js"></script>
+    <script type="text/javascript" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/doctools.js"></script>
+    <link rel="author" title="About these documents" href="https://help.sugarlabs.org/en/about.html">
+    <link rel="top" title="Sugar 0.106 documentation" href="https://help.sugarlabs.org/en/index.html">
+    <link rel="next" title="Pippy" href="https://help.sugarlabs.org/en/pippy.html">
+    <link rel="prev" title="Music Keyboard" href="https://help.sugarlabs.org/en/musickeyboard.html"> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/pippy.html" title="Pippy" accesskey="N">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/musickeyboard.html" title="Music Keyboard" accesskey="P">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="paint">
+<h1>Paint<a class="headerlink" href="#paint" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<p>This Activity allows users to create paintings or drawings. It can 
+also be used to edit images created by other Activities and the images 
+it creates can be imported into some Activities.</p>
+</div>
+<div class="section" id="using">
+<h2>Using<a class="headerlink" href="#using" title="Permalink to this headline">¶</a></h2>
+<p>You can start a new project by selecting <em>Start new</em> from the <a class="reference internal" href="https://help.sugarlabs.org/en/home_view.html"><em>Home View</em></a> or open an existing Paint project in the <a class="reference internal" href="https://help.sugarlabs.org/en/journal.html"><em>Journal</em></a>. By default, when you click on Paint in Home View, you will resume your last project.</p>
+</div>
+<div class="section" id="paint-main-tool-bar">
+<h2>Paint main tool bar<a class="headerlink" href="#paint-main-tool-bar" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Paint0main-tb.png" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/Paint0main-tb.png">
+<p>The tool bar top row contains buttons to open each of the following tabs.</p>
+<ol class="arabic simple">
+<li>Activity tab. The Activity tab is open, and the project has been given a name.</li>
+<li>Edit tab.</li>
+<li>Brush properties.</li>
+<li>Brush.</li>
+<li>Shapes.</li>
+<li>Shapes properties.</li>
+<li>Text tab.</li>
+<li>Images Tab.</li>
+<li>Stop, or close Activity.</li>
+</ol>
+<p>Explanation of tabs or tool bars in more detail.</p>
+</div>
+<div class="section" id="the-activity-tab">
+<h2>The Activity tab<a class="headerlink" href="#the-activity-tab" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Paint1ActTab.png" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/Paint1ActTab.png">
+<p>Activity tab. In the first field name the page or project. The 
+Description button, the “pencil and book” icon, allows you to add a 
+description to the <a class="reference internal" href="https://help.sugarlabs.org/en/journal.html"><em>Journal</em></a>
+ entry. Try to get in the habit of re-naming the project before you 
+start work. Move the cursor over the existing title, click the left 
+mouse button, and start typing a name for the project. Your new name 
+will overwrite the original.</p>
+<p>The collaboration button is grayed out, see <a class="reference internal" href="#share"><em>Sharing</em></a>.</p>
+</div>
+<div class="section" id="edit-tab">
+<h2>Edit tab<a class="headerlink" href="#edit-tab" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Paint2EdTab.png" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/Paint2EdTab.png">
+<ol class="arabic simple">
+<li>Undo button.</li>
+<li>Redo button.</li>
+<li>Copy button. This will copy the area selected with the <em>Select Area</em> tool to the clipboard. The <em>Select Area</em> tool is the bottom item of the Brush tool bar.</li>
+</ol>
+<blockquote>
+<div><p>Use the <em>Select Area</em> tool to crop images, select the area you want, and use the <em>Copy button</em> to copy the clipping to the Clipboard. The Clipboard feature is within the Frame in the lower left corner of the screen.</p>
+<p>To save from the Clipboard, click on the clipping on the Frame, and 
+then select ‘Keep’ on the menu, which appears. The original image is 
+unchanged and a new <em>Image clipping</em> item is saved in the Journal.</p>
+<p>To retieve from the Clipboard use the Paste button:</p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li>Paste button. The copied image, which you pick up as an <em>Image clipping</em> from the Frame, is pasted in the top left of the work space, and it is already selected, that is under the control of the <em>Select Area</em> tool, with which you drag the clipping to the desired place.</li>
+<li>Clear the work space, or clear the selected area if there is an area selected.</li>
+</ol>
+</div>
+<div class="section" id="brush-properties">
+<h2>Brush properties<a class="headerlink" href="#brush-properties" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Paint3BrushProps.png" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/Paint3BrushProps.png">
+<p>Changes the color, and other properties of the Brush tools, Brush, Bucket, and Stamp.</p>
+<p>When the stamp tool is selected, Brush properties changes to Stamp properties and it controls the size of the stamp.</p>
+</div>
+<div class="section" id="brush">
+<h2>Brush<a class="headerlink" href="#brush" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Paint4Brush.png" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/Paint4Brush.png">
+<ol class="arabic simple">
+<li>Brush. Spreads color as you move the cursor over the work space.</li>
+<li>Eraser. Removes color.</li>
+<li>Bucket. This will flood, or fill, an enclosed area with color.</li>
+<li>Picker. Use this tool to pick up a certain color from the image on 
+the work space. This colour is then used by Brush, Bucket, or Stamp.</li>
+<li>Stamp. Stamp will repeat a part of the image selected in Select Area.</li>
+<li>Select Area. A rectangular area is selected by placing the curson at
+ top left of desired area, click left mouse button, draw cursor to 
+bottom right, and release the mouse button.</li>
+</ol>
+</div>
+<div class="section" id="shapes">
+<h2>Shapes<a class="headerlink" href="#shapes" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Paint5Shapes.png" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/Paint5Shapes.png">
+<ol class="arabic simple">
+<li>Elipse (hold down shift for circle).</li>
+<li>Rectangle (hold down shift for squares).</li>
+<li>Line.</li>
+<li>Free form.</li>
+<li>Polygon (number of sides set in Shapes properties).</li>
+<li>Heart.</li>
+<li>Parallelogram.</li>
+<li>Arrow.</li>
+<li>Star (number of points is set in Shapes properties).</li>
+<li>Trapezoid.</li>
+<li>Triangle.</li>
+</ol>
+</div>
+<div class="section" id="shapes-properties">
+<h2>Shapes Properties<a class="headerlink" href="#shapes-properties" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Paint6ShapesProps.png" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/Paint6ShapesProps.png">
+<p>The color of Shapes <em>Fill</em> is set here, while the color of the <em>border</em> is set in Brush properties. If the <em>Fill</em> box is unchecked, only an outline, or border, is displayed.</p>
+<p>Under the <em>Fill</em> checkbox, set aspect ratio, and the number of sides of stars and polygons.</p>
+</div>
+<div class="section" id="texttab">
+<h2>TextTab<a class="headerlink" href="#texttab" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Paint7TextTab.png" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/Paint7TextTab.png">
+<ol class="arabic simple">
+<li>Type. To insert text, press <em>Type</em>, move the cursor to the 
+point you want to start typing, click, and insert text with the 
+keyboard. The colour used is set in Brush properties.</li>
+<li>Bold switch.</li>
+<li>Italic switch.</li>
+<li>Increase or decrease font size.</li>
+<li>Select font.</li>
+</ol>
+</div>
+<div class="section" id="images-tab">
+<h2>Images Tab<a class="headerlink" href="#images-tab" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Paint8ImageTab.png" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/Paint8ImageTab.png">
+<ol class="arabic simple">
+<li>Insert picture, opens Journal or attached media in Image search.</li>
+<li>Rotate selected area left.</li>
+<li>Rotate selected area right.</li>
+<li>Horizontal mirror, or flip, selected area.</li>
+<li>Vertical mirror, or flip, selected area.</li>
+<li>Convert selected area from color to gray.</li>
+<li>Rainbow.</li>
+<li>Invert colors in the selected area. For example black is inverted to white, and similarly, all colors are inverted.</li>
+</ol>
+</div>
+<div class="section" id="applying">
+<h2>Applying<a class="headerlink" href="#applying" title="Permalink to this headline">¶</a></h2>
+<p>Paint is a versatile Activity with many uses such as:</p>
+<ul class="simple">
+<li>creating drawings or paintings.</li>
+<li>creating images for inserting into Write documents.</li>
+<li>creating slides for a Portfolio Activity slide show.</li>
+<li>creating images for using in other Activities including Turtle Blocks and many more.</li>
+<li>editing and cropping images made by other Activities including Turtle Blocks and many more..</li>
+<li>editing and cropping screen shots (take screen shots from the keyboard by pressing the <em>Alt</em> key with <em>1</em>).</li>
+<li>editing and cropping photos taken with the Record Activity.</li>
+</ul>
+</div>
+<div class="section" id="sharing">
+<span id="share"></span><h2>Sharing<a class="headerlink" href="#sharing" title="Permalink to this headline">¶</a></h2>
+<p>Paint does not support sharing. You can use Turtle Blocks for collaborative drawing.</p>
+<p>You can share the work you have done in Image Viewer.</p>
+<p><img alt="more" src="Paint%20%E2%80%94%20Sugar%200.106%20documentation_files/more.png"> For further information, please see the page <a class="reference internal" href="https://help.sugarlabs.org/en/collaborating.html"><em>Collaborating</em></a></p>
+</div>
+<div class="section" id="extending">
+<h2>Extending<a class="headerlink" href="#extending" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>take a photo of an animal with Record, crop the image with Paint, use as a custom turtle in Turtle Blocks.</li>
+<li>start a school newspaper, take photos with Record, crop with Paint, import them into Write.</li>
+<li>do a portfolio of your schoolwork, get screenshots (Alt-1) crop with
+ Paint and add explanatory labels then make a slideshow in Portfolio 
+Activity.</li>
+<li>create a custom Memorize Activity game, create the images in Paint.</li>
+<li>create custom cards for the Dimensions (Visual Match) Activity.</li>
+<li>create custom foods for the Nutrition Activity.</li>
+<li>create custom images for the Labyrinth Activity. Labyrinth is a mind mapping tool.</li>
+<li>create a web page with images from Paint.</li>
+<li>take photos of plants or animals, crop the photos, and label them.</li>
+<li>take the output of SimpleGraph and use the <em>Bucket</em> (flood-fill tool) to make a multicolored graph.</li>
+</ul>
+</div>
+<div class="section" id="developers-information">
+<h2>Developers’ information<a class="headerlink" href="#developers-information" title="Permalink to this headline">¶</a></h2>
+<p><strong>History</strong></p>
+<p>Oficina (the Paint Activity) was developed and adapted to the XO 
+using Python for the team NATE-LSI (Integrated Systems Laboratory), in 
+the Polytechnical School at University of São Paulo, Brazil.</p>
+<p><strong>Resources</strong></p>
+<p><a class="reference external" href="https://git.sugarlabs.org/projects/paint">Sources</a></p>
+</div>
+<div class="section" id="where-to-report-problems">
+<h2>Where to report problems<a class="headerlink" href="#where-to-report-problems" title="Permalink to this headline">¶</a></h2>
+<p>In <a class="reference external" href="http://bugs.sugarlabs.org/">http://bugs.sugarlabs.org</a>, component Paint.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="https://help.sugarlabs.org/en/index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Paint</a><ul>
+<li><a class="reference internal" href="#about">About</a></li>
+<li><a class="reference internal" href="#using">Using</a></li>
+<li><a class="reference internal" href="#paint-main-tool-bar">Paint main tool bar</a></li>
+<li><a class="reference internal" href="#the-activity-tab">The Activity tab</a></li>
+<li><a class="reference internal" href="#edit-tab">Edit tab</a></li>
+<li><a class="reference internal" href="#brush-properties">Brush properties</a></li>
+<li><a class="reference internal" href="#brush">Brush</a></li>
+<li><a class="reference internal" href="#shapes">Shapes</a></li>
+<li><a class="reference internal" href="#shapes-properties">Shapes Properties</a></li>
+<li><a class="reference internal" href="#texttab">TextTab</a></li>
+<li><a class="reference internal" href="#images-tab">Images Tab</a></li>
+<li><a class="reference internal" href="#applying">Applying</a></li>
+<li><a class="reference internal" href="#sharing">Sharing</a></li>
+<li><a class="reference internal" href="#extending">Extending</a></li>
+<li><a class="reference internal" href="#developers-information">Developers’ information</a></li>
+<li><a class="reference internal" href="#where-to-report-problems">Where to report problems</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/pippy.html" title="Pippy">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/musickeyboard.html" title="Music Keyboard">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        © Copyright 2015, SugarLabs.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  
+</body></html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Dimensions — Sugar 0.106 documentation</title>
+    
+    <link rel="stylesheet" href="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/default.css" type="text/css">
+    <link rel="stylesheet" href="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/pygments.css" type="text/css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.106',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/jquery.js"></script>
+    <script type="text/javascript" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/underscore.js"></script>
+    <script type="text/javascript" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/doctools.js"></script>
+    <link rel="author" title="About these documents" href="https://help.sugarlabs.org/en/about.html">
+    <link rel="top" title="Sugar 0.106 documentation" href="https://help.sugarlabs.org/en/index.html">
+    <link rel="next" title="Distance" href="https://help.sugarlabs.org/en/distance.html">
+    <link rel="prev" title="Chart" href="https://help.sugarlabs.org/en/chart.html"> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/distance.html" title="Distance" accesskey="N">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/chart.html" title="Chart" accesskey="P">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="dimensions">
+<h1>Dimensions<a class="headerlink" href="#dimensions" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<p>Dimensions (previously known as Visual Match) is a pattern-matching 
+game written for Sugar; it is included as part of the Honey collection 
+of Sugar add-ons. The object of the game is to find sets of three cards 
+where each attribute—color, shape, number of elements, and 
+shading—either match on all three cards or are different on all three 
+cards.</p>
+<p>Prime Dimensions is the number variant of Dimensions, where instead 
+of shape, three prime numbers, 5, 7, and 11, are used. Texture is 
+replaced by representation, e.g. Arabic numerals, Roman numerals, Mayan 
+numerals, etc.</p>
+<p>Word Dimensions is the word variant of Dimensions, where instead of 
+shape, three word categories are used: animal, food, celestial body. 
+Texture is replaced by font attribute: bold, italic, normal.</p>
+<p>Visual Match is deprecated.</p>
+<img alt="_images/Dimensions-img1.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img1.png">
+<img alt="_images/Dimensions-img2.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img2.png">
+<img alt="_images/Dimensions-img3.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img3.png">
+</div>
+<div class="section" id="using-dimensions">
+<h2>Using Dimensions<a class="headerlink" href="#using-dimensions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-basics">
+<h3>The Basics<a class="headerlink" href="#the-basics" title="Permalink to this headline">¶</a></h3>
+<p>Play by clicking on three cards to make a match.</p>
+<ol class="arabic simple">
+<li>As you click, the cards will move to the match area on the left side
+ of the screen. (You can also drag the cards to the match area.)</li>
+<li>Once three cards are in the match area, a validation test is run:</li>
+</ol>
+<ul class="simple">
+<li>If the cards make a <a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Dimensions#Examples_of_valid_matches">valid match</a>, a smiley face will appear.</li>
+<li>If they are an <a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Dimensions#Examples_of_invalid_matches">invalid match</a>,
+ a frowny face will appear, which details as to why the cards do not 
+match. Clicking on the smiley face will result in the match being 
+removed and new cards dealt from the deck. Clicking on the frowny face 
+will remove the last card in the match area back to the right side of 
+the screen.</li>
+</ul>
+<ol class="arabic simple" start="3">
+<li>Once the game is over, the screen will fill with smiley faces.</li>
+</ol>
+<p><a class="reference external" href="http://www.dailymotion.com/video/xbuw5j_visual-match">Video of basic game play</a></p>
+<p>Note: When Dimensions first starts up, it shows a simple animation of
+ game play. Click on the screen to interrupt the animation and begin 
+play.</p>
+</div>
+<div class="section" id="more-details">
+<h3>More Details<a class="headerlink" href="#more-details" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Cards have four different attributes: color, shape, fill texture, and number of elements.</li>
+</ul>
+<p>The number version works with prime factors instead of shapes and textures.
+The word version works with semantic groupings.</p>
+<ul class="simple">
+<li>Matches must be valid across all four attributes. Examples of <a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Dimensions#Examples_of_valid_matches">valid</a> and <a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Dimensions#Examples_of_valid_matches">invalid</a> matches are shown below.</li>
+</ul>
+<p>A valid match is defined by cards where each attribute is either the 
+same on each card or different on each card, e.g, all three red cards or
+ one red, one green, and one blue card.
+An invalid match is when two cards share and attribute and the third 
+card does not, e.g., one red and two green cards.</p>
+<ul class="simple">
+<li>At the end of the game, all of the matches are displayed in a simple animation.</li>
+<li>Also, the game state is saved to the Journal and restored upon resume.</li>
+<li>A simple cooperative sharing model is supported.</li>
+</ul>
+<p>Everyone works cooperatively to find matches.
+Only the initiator of the shared session can start new games, change game type or level.</p>
+</div>
+<div class="section" id="examples-of-valid-matches">
+<h3>Examples of valid matches<a class="headerlink" href="#examples-of-valid-matches" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/Dimensions-img4.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img4.png">
+<p>Rows from top to bottom</p>
+<ul class="simple">
+<li>The colors, shapes, and shade match; numbers are different.</li>
+<li>The numbers match; colors, shapes and shade are different.</li>
+<li>Everything is different.</li>
+</ul>
+</div>
+<div class="section" id="examples-of-invalid-matches">
+<h3>Examples of invalid matches<a class="headerlink" href="#examples-of-invalid-matches" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/Dimensions-img5.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img5.png">
+<p>Rows from top to bottom</p>
+<ul class="simple">
+<li>two of the same colors (red)</li>
+<li>two of the same shape (X)</li>
+<li>two of the same shade (solid)</li>
+<li>two of the same number (2)</li>
+</ul>
+</div>
+<div class="section" id="additional-features">
+<h3>Additional Features<a class="headerlink" href="#additional-features" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Dimensions includes a computer (robot) assistant: The robot will help you find matches.</li>
+</ul>
+<p>It operates on a timer—finding matches after an adjustable number of seconds.
+The robot is enabled/disabled by clicking on the button the the Tool menu.
+You can also use the robot as a computer opponent. Decreasing the time between moves increases the challenge.</p>
+<ul class="simple">
+<li>Dimensions includes Beginner, Intermediate, and Expert Modes.</li>
+</ul>
+<p>In Beginner Mode, there are only 9 (32) cards and only two card characteristics,
+In Intermediate mode, there are 27 (33) cards and three card characteristics.
+In Expert Mode, there are 81 (34) cards and four card characteristics.</p>
+<ul class="simple">
+<li>Dimensions includes number-search and word-search games in addition to the pattern-search game.</li>
+</ul>
+<p>There is an edit mode so that customized word lists can be used in the Word Game (and shared over the network).
+Also, you can load custom cards from the Journal.</p>
+<ul class="simple">
+<li>The grid layout is arbitrary; there is no need to pick in rows or columns, or one from each column.</li>
+<li>The blank cards on the left are a place to display the most recent match; they can be otherwise ignored.</li>
+<li>A count of number of matches found is shown in the toolbar; when the
+ robot assistant is helping, the count is displayed as two numbers, 
+where the number of matches found by the robot is in parentheses, e.g., 
+3(2) would indicate that the robot found 2 matches out of a total of 5 
+(3+2) found so far.</li>
+<li>Dimensions keeps track of your best times (one for Beginner Mode and
+ one for Expert Mode). These times are displayed next to the level-mode 
+buttons on the <a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Dimensions#The_toolbars">Tools Toolbar</a>.</li>
+</ul>
+<p>As you improve, Dimensions will automatically advance you to a more difficult level of play.</p>
+<ul class="simple">
+<li>You can select cards using the keyboard:</li>
+</ul>
+<table class="docutils" border="1">
+<colgroup>
+<col width="72%">
+<col width="28%">
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Top Row</td>
+<td>1, 2, 3</td>
+</tr>
+<tr class="row-even"><td>Second Row</td>
+<td>q, w, e</td>
+</tr>
+<tr class="row-odd"><td>Third Row</td>
+<td>a, s, d</td>
+</tr>
+<tr class="row-even"><td>Fourth Row</td>
+<td>z, x, c</td>
+</tr>
+<tr class="row-odd"><td>Extra (bottom) Row</td>
+<td>8, 9, 0</td>
+</tr>
+</tbody>
+</table>
+<p>Watch out, because Dimensions can be very addictive.</p>
+</div>
+<div class="section" id="other-modes-of-play">
+<h3>Other modes of play<a class="headerlink" href="#other-modes-of-play" title="Permalink to this headline">¶</a></h3>
+<p>Number Game</p>
+<img alt="_images/Dimensions-img6.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img6.png">
+<p>Everything is different: colors, prime factors, and representations.</p>
+<p>Word Game</p>
+<img alt="_images/Dimensions-img7.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img7.png">
+<p>The words are from different semantic groups; the colors are different; the font style (bold) matches.</p>
+<p>When there is no match</p>
+<img alt="_images/Dimensions-img8.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img8.png">
+<p>On occasion, there is no match among the 12 cards on the grid. If 
+there is no match, three additional cards are dealt along the bottom row
+ as illustrated in the figure above.</p>
+</div>
+<div class="section" id="gallery">
+<h3>Gallery<a class="headerlink" href="#gallery" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/Dimensions-img9.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img9.png">
+<p>From left to right,</p>
+<ul class="simple">
+<li>Basic play: two dimensions: number and color</li>
+<li>Intermediate play: three dimensions: number, color, and shape</li>
+<li>Advanced play: four dimensions: number, color, shape, and texture</li>
+<li>Numbers don’t match</li>
+</ul>
+<img alt="_images/Dimensions-img10.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img10.png">
+<p>From left to right,</p>
+<ul class="simple">
+<li>Colors don’t match</li>
+<li>Shapes don’t match</li>
+<li>Textures don’t match</li>
+</ul>
+<img alt="_images/Dimensions-img11.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img11.png">
+<p>From left to right,</p>
+<ul class="simple">
+<li>Prime factors (1,2,3,5,7 and 11) are used to determine matches</li>
+<li>Roman numerals and dots in a circle</li>
+<li>Hashes and products</li>
+<li>Mayan</li>
+</ul>
+<img alt="_images/Dimensions-img12.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img12.png">
+<p>From left to right,</p>
+<ul class="simple">
+<li>semantic word groups (animal, food, celestial objects) are used to determine matches</li>
+<li>Editing the word list</li>
+<li>Loading custom cards from the Journal</li>
+</ul>
+<img alt="_images/Dimensions-img13.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img13.png">
+<p>From left to right,</p>
+<ul class="simple">
+<li>Custom cards loaded from the Journal</li>
+<li>Playing with cards loaded from the Journal</li>
+<li>the source code</li>
+<li>Scores can be copied to the clipboard and then plotted by SimpleGraph.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="learning-with-dimensions">
+<h2>Learning with Dimensions<a class="headerlink" href="#learning-with-dimensions" title="Permalink to this headline">¶</a></h2>
+<p>At a basic level, Dimensions can be used to enhance the observational
+ skills of young learners; they are repeatedly asked: what is the same? 
+what is different? At a deeper level, the concepts of multidimensional 
+sets can be explored.</p>
+<p>The numbers games can be used to explore different arithmetic representations.</p>
+</div>
+<div class="section" id="extending-dimensions">
+<h2>Extending Dimensions<a class="headerlink" href="#extending-dimensions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="exploring-the-math">
+<h3>Exploring the math<a class="headerlink" href="#exploring-the-math" title="Permalink to this headline">¶</a></h3>
+<p>The combinatoric math behind Dimensions may be of interest to some learners: See <a class="reference external" href="http://en.wikipedia.org/wiki/Set_%28game%29#Basic_Combinatorics_of_Set">this</a> for an explanation.</p>
+</div>
+<div class="section" id="creating-a-custom-game">
+<h3>Creating a custom game<a class="headerlink" href="#creating-a-custom-game" title="Permalink to this headline">¶</a></h3>
+<p>You can create your own set of cards for Dimensions. Use your 
+favorite program for creating images (Paint, Turtle Art, Record, etc.) 
+to make sets of cards. You need to create at least 9 cards in order to 
+play at the beginner level (3 cards each along 2 dimensions). You can 
+also make a collection of 27 cards (3 cards each along 3 dimensions) or 
+81 cards (3 cards each along 4 dimensions). The cards must all have the 
+same name in the journal with the exception of a number, beginning with 1
+ and incrementing by 1, e.g., card.1.png, card.2.png, ... card.9.png. 
+Any image format supported by Sugar should work and you do not have to 
+include the image-type suffix in the title, e.g., card.1, card.2, ... 
+card.9 will also work. Just be sure that the order corresponds to the 
+serialization of your multidimensional space, e.g.:</p>
+<table class="docutils" border="1">
+<colgroup>
+<col width="29%">
+<col width="35%">
+<col width="35%">
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">card name</th>
+<th class="head">dimension 1</th>
+<th class="head">dimension 2</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>my-card.1</td>
+<td>one</td>
+<td>red</td>
+</tr>
+<tr class="row-odd"><td>my-card.2</td>
+<td>two</td>
+<td>red</td>
+</tr>
+<tr class="row-even"><td>my-card.3</td>
+<td>three</td>
+<td>red</td>
+</tr>
+<tr class="row-odd"><td>my-card.4</td>
+<td>one</td>
+<td>green</td>
+</tr>
+<tr class="row-even"><td>my-card.5</td>
+<td>two</td>
+<td>green</td>
+</tr>
+<tr class="row-odd"><td>my-card.6</td>
+<td>three</td>
+<td>green</td>
+</tr>
+<tr class="row-even"><td>my-card.7</td>
+<td>one</td>
+<td>blue</td>
+</tr>
+<tr class="row-odd"><td>my-card.8</td>
+<td>two</td>
+<td>blue</td>
+</tr>
+<tr class="row-even"><td>my-card.9</td>
+<td>three</td>
+<td>blue</td>
+</tr>
+</tbody>
+</table>
+<p>You load a set of custom cards from the Journal by clicking on the ‘import image’ icon <img alt="imp_img" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img15-icon.png"> and selecting any one image of your set. The rest will be loaded automatically.</p>
+<img alt="_images/Dimensions-img14.png" src="Dimensions%20%E2%80%94%20Sugar%200.106%20documentation_files/Dimensions-img14.png">
+<p>The above cards were generated in <a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Turtle_Art">Turtle Art</a>. The sample code is supplied with <a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Turtle_Art">Turtle Art</a>: set.ta, the code generates a deck of cards and saves them as SVG to the Journal.</p>
+</div>
+</div>
+<div class="section" id="modifying-dimensions">
+<h2>Modifying Dimensions<a class="headerlink" href="#modifying-dimensions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="show-me-the-code">
+<h3>Show me the code<a class="headerlink" href="#show-me-the-code" title="Permalink to this headline">¶</a></h3>
+<p>You can explore the Dimensions source code [<a class="reference external" href="http://git.sugarlabs.org/projects/visualmatch/repos/mainline">cloning the project</a>] directly from git.</p>
+</div>
+</div>
+<div class="section" id="reporting-problems">
+<h2>Reporting Problems<a class="headerlink" href="#reporting-problems" title="Permalink to this headline">¶</a></h2>
+<p>There are several known problems with the current version of Dimensions:</p>
+<ul class="simple">
+<li>Restore from Journal does not work on pre-0.82 versions of Sugar.</li>
+<li>Chinese Cards don’t display properly on some systems due to a missing font.</li>
+<li>There is no indication of whom found the match in group play.</li>
+</ul>
+<p>If you discover a bug in the program or have a suggestion for an enhancement, please <a class="reference external" href="https://bugs.sugarlabs.org/newticket?component=Visual+Match">file a ticket</a> in our bug-tracking system.</p>
+<p>You can <a class="reference external" href="https://bugs.sugarlabs.org/query?status=accepted&amp;status=assigned&amp;status=new&amp;status=reopened&amp;component=Visual+Match">view the open tickets here.</a></p>
+</div>
+<div class="section" id="credits">
+<h2>Credits<a class="headerlink" href="#credits" title="Permalink to this headline">¶</a></h2>
+<p>Dimensions was written by <a class="reference external" href="http://wiki.sugarlabs.org/go/User:Walter">Walter Bender</a>
+ and the students from his 2009-2010 freshman seminar at MIT: Games, 
+Puzzles, and Other Things to Think With. Special thanks to Michele 
+Pratusevich and Vincent Le, as well as Mark Battley.</p>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://wiki.sugarlabs.org/go/Activities/Dimensions">Wiki page</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="https://help.sugarlabs.org/en/index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Dimensions</a><ul>
+<li><a class="reference internal" href="#about">About</a></li>
+<li><a class="reference internal" href="#using-dimensions">Using Dimensions</a><ul>
+<li><a class="reference internal" href="#the-basics">The Basics</a></li>
+<li><a class="reference internal" href="#more-details">More Details</a></li>
+<li><a class="reference internal" href="#examples-of-valid-matches">Examples of valid matches</a></li>
+<li><a class="reference internal" href="#examples-of-invalid-matches">Examples of invalid matches</a></li>
+<li><a class="reference internal" href="#additional-features">Additional Features</a></li>
+<li><a class="reference internal" href="#other-modes-of-play">Other modes of play</a></li>
+<li><a class="reference internal" href="#gallery">Gallery</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#learning-with-dimensions">Learning with Dimensions</a></li>
+<li><a class="reference internal" href="#extending-dimensions">Extending Dimensions</a><ul>
+<li><a class="reference internal" href="#exploring-the-math">Exploring the math</a></li>
+<li><a class="reference internal" href="#creating-a-custom-game">Creating a custom game</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#modifying-dimensions">Modifying Dimensions</a><ul>
+<li><a class="reference internal" href="#show-me-the-code">Show me the code</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#reporting-problems">Reporting Problems</a></li>
+<li><a class="reference internal" href="#credits">Credits</a></li>
+<li><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/distance.html" title="Distance">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/chart.html" title="Chart">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        © Copyright 2015, SugarLabs.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  
+</body></html>

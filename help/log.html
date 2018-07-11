@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Log — Sugar 0.106 documentation</title>
+    
+    <link rel="stylesheet" href="Log%20%E2%80%94%20Sugar%200.106%20documentation_files/default.css" type="text/css">
+    <link rel="stylesheet" href="Log%20%E2%80%94%20Sugar%200.106%20documentation_files/pygments.css" type="text/css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.106',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="Log%20%E2%80%94%20Sugar%200.106%20documentation_files/jquery.js"></script>
+    <script type="text/javascript" src="Log%20%E2%80%94%20Sugar%200.106%20documentation_files/underscore.js"></script>
+    <script type="text/javascript" src="Log%20%E2%80%94%20Sugar%200.106%20documentation_files/doctools.js"></script>
+    <link rel="author" title="About these documents" href="https://help.sugarlabs.org/en/about.html">
+    <link rel="top" title="Sugar 0.106 documentation" href="https://help.sugarlabs.org/en/index.html">
+    <link rel="next" title="Measure" href="https://help.sugarlabs.org/en/measure.html">
+    <link rel="prev" title="Labyrinth" href="https://help.sugarlabs.org/en/labyrinth.html"> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/measure.html" title="Measure" accesskey="N">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/labyrinth.html" title="Labyrinth" accesskey="P">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="log">
+<h1>Log<a class="headerlink" href="#log" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Log0Icon.png" src="Log%20%E2%80%94%20Sugar%200.106%20documentation_files/Log0Icon.png">
+<p>The Log Activity allows you to troubleshoot problems with your computer. You
+can view the log files of Sugar and your Activities. Log files contain errors,
+warnings and debugging information to help you fix problems.</p>
+</div>
+<div class="section" id="using-log">
+<h2>Using Log<a class="headerlink" href="#using-log" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Log1Main.png" src="Log%20%E2%80%94%20Sugar%200.106%20documentation_files/Log1Main.png">
+<p>When you open Log, there are 2 panels. On the left is a list of log files.
+On the right, the contents of the selected file is displayed.</p>
+<p>The list of log files is divided into sections, each representing a folder.
+Pressing the arrow icon by the folder name will hide or show the log files inside.
+Pressing, or selecting, a log file will display the contents in the right panel.</p>
+<p>There are 3 main folders in the log file list. The first is the <tt class="docutils literal"><span class="pre">.sugar</span></tt> or
+<tt class="docutils literal"><span class="pre">dotsugar</span></tt> folder. This contains the log files of Sugar and your Activities.
+The sub-folders contain backups of older logs (log files in <tt class="docutils literal"><span class="pre">.sugar</span></tt> are
+deleted on shutdown). The second main folder <tt class="docutils literal"><span class="pre">/var/log</span></tt>. This contains
+system log files. These are helpful for troubleshooting issues related to your
+computer hardware. The last main folder is <tt class="docutils literal"><span class="pre">Other</span></tt>, and contains
+miscellaneous log files.</p>
+<p>The <tt class="docutils literal"><span class="pre">.sugar</span></tt> folder is the first folder you should look at when
+troubleshooting Sugar and your Activities. The <tt class="docutils literal"><span class="pre">shell.log</span></tt> file contains
+errors, warnings and debugging information for the Sugar Shell. The Sugar
+Shell covers the home and neighborhood views, journal, frame, web services and
+control panel. Each activity has its own log file, named using its bundle ID.
+You can find an activity’s bundle ID by opening view source while using the
+activity, clicking the <tt class="docutils literal"><span class="pre">activity</span></tt> folder and opening the <tt class="docutils literal"><span class="pre">activity.info</span></tt>
+file. If you open an activity for a 2nd time, a separate log file will be
+created, with <tt class="docutils literal"><span class="pre">-2</span></tt> added to the end of the file name. This pattern continues
+if you run the activity more than 2 times.</p>
+</div>
+<div class="section" id="the-toolbars">
+<h2>The Toolbars<a class="headerlink" href="#the-toolbars" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/Log2Toolbar.png" src="Log%20%E2%80%94%20Sugar%200.106%20documentation_files/Log2Toolbar.png">
+<ol class="arabic simple">
+<li>Activity Toolbar</li>
+<li>Hide/Show the list of files</li>
+<li>Copy the log file</li>
+<li>Enable/Disable word wrap. When word wrap is disabled, there is a horizontal
+scroll bar. When word wrap is enabled, the lines of text too long to fit on
+the screen are broken up.</li>
+<li>Find and highlight text in the log file</li>
+<li>Previous matching text</li>
+<li>Next matching text</li>
+<li>Delete current log file</li>
+<li>Stop activity</li>
+</ol>
+<img alt="_images/Log3ActivityToolbar.png" src="Log%20%E2%80%94%20Sugar%200.106%20documentation_files/Log3ActivityToolbar.png">
+<ol class="arabic simple">
+<li>Activity Name</li>
+<li>Activity Description</li>
+<li>Save log files to Journal. This packages the log files in a format that you
+can send over the internet. If you find a bug, you can email this package
+to the activity’s developers so they can fix this bug. If you are filing a
+support ticket or bug report, you should attach this file, so the problem
+can be more easily diagnosed and fixed.</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="https://help.sugarlabs.org/en/index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Log</a><ul>
+<li><a class="reference internal" href="#about">About</a></li>
+<li><a class="reference internal" href="#using-log">Using Log</a></li>
+<li><a class="reference internal" href="#the-toolbars">The Toolbars</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://help.sugarlabs.org/en/measure.html" title="Measure">next</a></li>
+        <li class="right">
+          <a href="https://help.sugarlabs.org/en/labyrinth.html" title="Labyrinth">previous</a> |</li>
+        <li><a href="https://help.sugarlabs.org/en/index.html">Sugar 0.106 documentation</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        © Copyright 2015, SugarLabs.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  
+</body></html>
