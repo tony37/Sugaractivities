@@ -1,3 +1,4 @@
+var deployment = "1"
 
 var aslo = [
 ["0000","Fructose","activity.png","index.html?fructose","demonstrations activities"],
