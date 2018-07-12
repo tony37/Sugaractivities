@@ -7,6 +7,10 @@ var aslo = [
 ["0000","GTK2_aslox","activity.png","index.html?gtk2x","XO activity downloaded from ASLO - not working"],
 ["0000","GTK2_github","activity.png","index.html?github","unported activity from SugarLabs GitHub with incremented version number"],
 ["0000","GTK2_githubx","activity.png","index.html?githubx","unported activity from Sugarlabs GitHub - not working"],
+["0000","Admin","activity.png","index.html?admin","pages used to maintain this website"],
+]
+
+var admin = [
 ["0000","Spreadsheet","activity.png","aslo.csv","csv file showing information in aslo.js"],
 ["0000","Versions","activity.png","aslo.versions.csv","csv file showing versions"],
 ["0000","Links","activity.png","aslo.js","js file showing links"],  
