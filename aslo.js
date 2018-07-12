@@ -376,7 +376,7 @@ var gtk2 = [
 ["4697","welcomeweb","activity-welcomeweb.svg","welcomeweb-2.xo","WebActivity for show firsts helps of sugar."], 
 ["4799","what_is","activity-whatis.svg","what_is-1.xo","Application where you have to guess which image has which name. guess the image by listening (or reading) to its name"], 
 ["4401","wikipedia","activity-wikipedia.svg","wikipedia-36.xo","WikiBrowse is a self-contained browsable offline wikireader for the Spanish Wikipedia.",,"notes/wikipedia.html"], 
-["4631","wikipediapt","activity-wikipedia-pt.svg","wikipedia_pt-35.xo","Wikipedia in Portuguese.",,"notes/wikipediapt.html"]], 
+["4631","wikipediapt","activity-wikipedia-pt.svg","wikipedia_pt-35.xo","Wikipedia in Portuguese.",,"notes/wikipediapt.html"], 
 ["4411","wikipediaen","activity-wikipedia-en.svg","wikipediaen-36.xo","This is a offline version of the english Wikipedia. This is a offline version of the English Wikipedia.",,"notes/wikipediaen.html"]], 
 ["4540","wikipediafr","activity-wikipedia-fr.svg","wikipediafr-36.xo","A French wikipedia activity. Includes 22.100 articles.",,"notes/wikipediafr.html"]], 
 ["4632","wikipediahi","activity-wikipedia-hi.svg","wikipediahi-35.xo","This is a offline wikipedia activity with content in Hindi language.",,"notes/wikipediahi.html"]], 
