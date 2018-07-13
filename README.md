@@ -24,25 +24,67 @@ Fortunately GitHub supports direct access to static web sites which in the end i
 
 #Usage
 
-The simplest way to use Sugaractivities is to open Browse in Sugar and enter the url: http://github.com/tony37/Sugaractivities/index.html.
+The simplest way to use Sugaractivities is to open Browse in Sugar and enter the url: 
 
-This will open the main page with eight tiles. The first tile: fructose displays the Fructose collection of activities and is an example of a custom collection. The last tile: spreadsheet downloads a csv file which can be opened in Libre Office Calc or similar spreadheet program. Each row of the spreadsheet shows one activity in Sugaractivities.
+	http://github.com/tony37/Sugaractivities/index.html.
 
+This will open the main page with nine tiles:
+
+1. README
+	
+>	Displays this README.
+
+2. Fructose
+	
+	 
+>	 Displays the Fructose collection of activities and is an example of a custom collection. 
+	 
+3. GTK3
+	 
+>	 This tile displays Sugar Web activities or those which have been ported to GTK+3 and work on both Sugar with Ubuntu 18.04 LTS and Sugar on the XO. 
+
+4. GTK3x
+
+>This tile displays activities which would be in the GTK3 collectsion except they do not execute correctly. Information on the problem is provided by the Note button for each activity.
+
+5. GTK2
+
+>This tile displays activities from ASLO which have not been ported to GTK3 and so only work on the XO or in environments compatible with build 13.2.9 with Sugar 0.112.
+
+6. GTK2x
+
+>This tile displays activities which would be in the GTK2 collection except that they do not execute correctly. Information on the problem is provided by the Note button for each activity.
+
+7. Github
+
+>This tile displays activities which have repositories on github: http://github.com/Sugarlabs. In general, they are the same as the corresponding activity in ASLO except that the bundle id was changed. These activities work in the XO environment.
+
+8. Githubx
+
+>This tile displays activities that would be in the GitHub collection except that they do not execute correctly. Information on the problem is provided by the Note button for the activity.
+>
+9. Admin
+
+>This tile opens a page with some utilities to help support maintenance of the site. One option is to use the Make CSV from remote repository tile to download a python script. Use the Links tile to download the file 'aslo.js'. The command python makecsv.py will create a file 'aslo.csv'. This file can be opened with the Calc Spreadsheed to display detailed information on the complete set of activities.
+
+The tiles 2-7 partition the complete collection of activities based on their current status. Clicking on a button - say GTK2 - opens a page with rows of tiles, one tile per activity in that collection. Unlike ASLO there is not search - the user scrolls down the page. Any tile can be clicked to download that activity.
 The main tiles show the entire library partitioned into six sets. The first are the Sugar Web activities and activities ported to GTK+3 which should work in all Sugar environments. The second has activities which have been ported to GTK+3 but currently do not work. The note button provides some information on the problem. The next four form pairs with the first (gtk and github) showing the working activities (gtk work only with XO Sugar 0.112). The second in the pair shows ones which currently do not work.
 
 Clicking on a main page tile opens that collection. Clicking on an activity tile downloads and installs the activity. Tiles may have a 'help' button and/or a 'notes' button. The first shows the 'help' page associated with the activity. The second shows the notes describing the current status of the activity. The tile itself may show a brief description of the activity.
 
-#Usage locally
+#Usage on a local device
 
-Use github to download the repository zip file (a 4GB download while the clone is 8GB). Unzip the download (e.g. to a USB stick). The folder Sugaractivities can be used with Browse and the url: file:///media/run/olpc/stickname/Sugarlabs/index.html. (Note: in Ubuntu Sugar use: file:///media/username/stickname/Sugaractivities/index.html.
+Go to http://github.com/tony37/Sugaractivites. This page provides the ability to download a clone of the repository. This is useful for contributors to the maintenance of this library.
+
+For users of Sugar on Ubuntu 18.04, there usally ample storage space available. On this page, choose to download the zip. Save it, for example, in /home/username/ (i.e. your ~ directory). Unzip the file (e.g. ~/Sugaractivities). The you can use the capability in Sugar from the Browse activity by entering the url: file:///home/username/Sugaractivities/index.html). This works offline. 
 
 #Schoolserver usage
 
-If the file is unzipped on a schoolserver, it should be possible to arrange it to be used via Apache with a url like: http://schoolserver/Sugaractivities/index.html.
+If the file is unzipped on a computer configured as a server ('schoolserver'), it should be possible to arrange it to be used via Apache with a url like: http://schoolserver/Sugaractivities/index.html.
 
 #How Sugaractivities works
 
-There is an html file: index.html in the root of the Sugaractivities directory. This file embeds aslo.js and jquery.js. The file aslo.js provides the information for the tiles.
+There is an html file: index.html in the root of the Sugaractivities directory. This file includes aslo.js and jquery.js. The file aslo.js provides the information for the tiles.
 
 ##tiles
 
@@ -50,10 +92,17 @@ A tile is defined by a 'link':
 
 ["4418","display title", "image.svg", "activities/helloworld-7.xo","description", "help/helloworld.html","notes/helloworld.html"],
 
-The first item is the ASLO id number for the activity. For a link in the main page it is set to "0000". The second entry is the name of the activity or the title to be displayed. The third image is an icon for the activity or other image file. The fourth is the link to the activity itself or for the main page - a link to anther page such as 'index.html?pagename.
-The fifth is a string which provides a short description. The next two are optional. If present, the sixth is a link to a help page and the seventh is a link to a note about the activity.
+This forms a list with from five to seven members.
 
-Each tile is a javascript list which is included in a page:
+	1. The ASLO id number for the activity (http://activities.sugarlabs.org/activities).
+	2. The display name of the activity.
+	3. The activity icon.
+	4. Link to the activity
+	5. Short description of the activity.
+	6. (optional) link to a help file.
+	7. (optional) link to a note about the activity (such as why it doesn't work). 
+
+These links are in a list which defines a page. 
 
 var aslo = [
 ]
@@ -73,7 +122,7 @@ There are many ways that users can help to make Sugar better.
 ##comments
 
 Send a message to http://tony_anderson@usa.net about any problems you may have in using it or with any of the activities you install in Sugar.
-An attempt will be made to respond as quickly as possible and to fix the problem.
+An attempt will be made to respond as quickly as possible.
 
 ##Non-technical
 
@@ -81,14 +130,18 @@ Send a proposed description for an activity.
 Send a proposed note or addtion to a note for an activity.
 
 ## Somewhat technical
-Add or improve the help page for an activity. URL provides advice on how to do this.
+Add or improve the help page for an activity. See https://help.sugarlabs.org/en/how_to_help.html for information on how to prepare a help page.
+
+Currently less than 50 out of over 500 have help pages - so lots of opportunity.
 
 ## More technical
 Add a new version of an activity. If a new activity - make it version 1. If a fix to an activity or a new capability for an activity, make the version number += 1 from the current version. Avoid, if possible, version numbers like 6.2.1 which are not integers.  
 
 There are two types of activities: Python and Web. Python activities now require use of GTK+3. Fortunately web activities work in all Sugar environments. 
 
-The book provides a simple introduction to developing Sugar activities. The Helloworld activity for Python and Helloweb activity for web activities provide a simple example of what is needed. 
+The book [Make your own Sugar activities!](http://write.flossmanuals.net/make-your-own-sugar-activities) provides a simple introduction to developing Sugar activities. The Helloworld activity for Python and Helloweb activity for web activities provide a simple example of what is needed. [A tutorial on how to port a Sugar activity to GTK+3](https://github.com/sugarlabs/sugar-docs/blob/master/src/gtk3-porting-guide.md) is available.
+
+An activity does not have to feature advanced interactivity - there is plenty of need for lessons - explanatory text with images as in a textbook.
 
 For example, a teacher could create a lesson by using the Helloweb activity. 
 
@@ -116,7 +169,7 @@ license = GPLv3
 
 6. In the activity folder, mv activity-helloweb.svg to activity-lesson1.svg This will use that same icon for your activity as HelloWeb. You can replace this with a new icon.
 7. Change to the main folder. Edit index.html to present the lesson. 
-8. Restart Sugar (on an XO, reboot, in Ubuntu, logout and then login againa.
+8. Restart Sugar (on an XO, reboot, in Ubuntu, logout and then login again.
 8. Find your activity in Sugar's home view or list view. Launch it to see how you are doing.
 
 A similar procedure can be used for Python activities.

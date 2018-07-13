@@ -74,8 +74,6 @@ for line in lines:
         thispage = ""
         count = 0
         inpage = False
-    elif 'aslo' in thispage or 'fructose' in thispage or 'issues' in thispage:
-           continue
     else:
         count += 1
         total += 1
@@ -83,6 +81,8 @@ for line in lines:
         temp = ""
         entry = parse(str(line))
         if entry:
+            if entry[0].replace('"','') == "0000":
+                continue
             for i in range(len(entry)):
                 if i == 2:
                    fn = path('icons/'+entry[2].replace('"',''))
@@ -101,11 +101,14 @@ for line in lines:
                        lineout += 'desc' + ','
                    continue
                 if i == 5:
+                   if counth > 0:
+                       print 'counth', 1
                    if len(entry[5])>=3:
                        fn = path(entry[5].replace('"','').strip())
                        if not fn.exists():
-                           print 'not found', fn
+                           print 'help not found', entry[5], fn
                            counth += 1
+                           print 'counth incremented', counth
                            lineout += "nohelp,"
                        else:
                            lineout += entry[5] + ','
@@ -121,7 +124,7 @@ for line in lines:
                        lineout += notetxt[pos1+3:pos2]+','
                    else:
                        lineout +=  'not found:' + fn + ','
-                       print 'not found', fn
+                       print 'note not found', fn
                        countn += 1
                    continue
                 if not(entry[i]):
