@@ -1,6 +1,7 @@
 var deployment = "1"
 
 var aslo = [
+["0000","README","activity.png","readme.html",""],
 ["0000","Fructose","activity.png","index.html?fructose","demonstrations activities"],
 ["0000","GTK3","activity.png","index.html?gtk3","activity from Sugarlabs Github with incremented version number"],
 ["0000","GTK3X","activity.png","index.html?gtk3x","GTK bundle not working"],
@@ -15,6 +16,9 @@ var admin = [
 ["0000","Spreadsheet","activity.png","aslo.csv","csv file showing information in aslo.js"],
 ["0000","Versions","activity.png","aslo.versions.csv","csv file showing versions"],
 ["0000","Links","activity.png","aslo.js","js file showing links"],
+["0000","Make CSV from local repository"","activity.png","makecsv.py",""],
+["0000","Make CSV from remote repository"","activity.png","makercsv.py",""],
+
 ]
 
 var fructose = [
