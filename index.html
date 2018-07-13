@@ -123,12 +123,9 @@ $(function(){
   } else {
       activitieslink = activitiesbase
   }
-  $('center').append(page)
-  $('title').append(page);
-  //console.log(page);
-  // console.log(activitieslink);
+  $('center').append('Sugar Activities')
+  $('title').append('Sugar Activities');
   tiles = window[page].length;
-  //console.log(page+' '+tiles);
   for(i=0;i<tiles;i++){
       tile = window[page][i];
       maketile(tile);
