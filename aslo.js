@@ -1,7 +1,7 @@
 var deployment = "1"
 
 var aslo = [
-["0000","README","activity.png","readme.html",""],
+["0000","README","activity.png","README.html",""],
 ["0000","Fructose","activity.png","index.html?fructose","demonstrations activities"],
 ["0000","GTK3","activity.png","index.html?gtk3","activity from Sugarlabs Github with incremented version number"],
 ["0000","GTK3X","activity.png","index.html?gtk3x","GTK bundle not working"],
