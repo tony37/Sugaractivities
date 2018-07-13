@@ -16,8 +16,8 @@ var admin = [
 ["0000","Spreadsheet","activity.png","aslo.csv","csv file showing information in aslo.js"],
 ["0000","Versions","activity.png","aslo.versions.csv","csv file showing versions"],
 ["0000","Links","activity.png","aslo.js","js file showing links"],
-["0000","Make CSV from local repository"","activity.png","makecsv.py",""],
-["0000","Make CSV from remote repository"","activity.png","makercsv.py",""],
+["0000","Make CSV from local repository","activity.png","makecsv.py",""],
+["0000","Make CSV from remote repository","activity.png","makercsv.py",""],
 
 ]
 
