@@ -61,6 +61,7 @@ var gtk3 = [
 ["4037","Cartoon Builder","activity-cartoonbuilder.svg","CartoonBuilder-18.xo","","help/cartoonbuilder.html"],
 ["4708","CEdit","activity-cedit.svg","CEdit-4.xo","Esta actividad está pensada en la programación desde las XOs."],
 ["4069","Chat","activity-chat.svg","Chat-85.xo","Chat provides a simple interface for collaborative discussion, be it between two individuals or among a group as large as an entire classroom.","help/chat.html"],
+["4534","Chart","activity-chart.svg","Chart-12.xo","Chart is an Activity for create charts from sugar.This activity can create: Bar, Line and Pie Charts..","help/chart.html"],
 ["4507","Classroom Broadcast","activity-classroombroadcast.svg","ClassRoomBroadcast-11.xo",""],
 ["4687","ClipArt","activity-clipart.svg","ClipArt-3.xo","ClipArt is a tool for moving artwork found in other Sugar activities into the Sugar Journal."],
 ["4191","Clock","activity-clock.svg","Clock-21.xo","Clock is a simple Activity to learn how to read and tell time.","help/clock.html"],
@@ -86,6 +87,8 @@ var gtk3 = [
 ["4354","Follow Me","activity-followme.svg","FollowMe-26.xo",""],
 ["4253","FotoToon","activity-fototoon.svg","FotoToon-24.xo","Esta actividad permite crear historietas, usando fotos o dibujos Tomando fotos y agregandole los globos, se puede contar una historia. ","help/fototoon.html"],
 ["4746","Fractionauts","activity-fractionauts.svg","Fractionauts-2.xo","Fractionauts is an educational game for the XOPC that teaches fraction operations with rockets","notes/fractionauts.html"],
+["4304","Get Books","activity-getbooks.svg","GetBooks-18.xo","","help/getbooks.html"],
+["4194","Get IA Books","activity-getiabooks.svg","GetIABooks-9.xo",""],
 ["4261","Gmail","activity-gmail.svg","Gmail-2.xo",""],
 ["4252","Guido van Robot","activity-guidovanrobot.svg","GuidovanRobot-2.xo",""],
 ["4418","HelloWorld","activity-helloworld.svg","HelloWorld-7.xo",""],
@@ -563,13 +566,10 @@ var github = [
 ]
 
 var githubx = [
-["4534","Chart","activity-chart.svg","Chart-12.xo","Chart is an Activity for create charts from sugar.This activity can create: Bar, Line and Pie Charts..","help/chart.html"],
-["4304","Get Books","activity-getbooks.svg","GetBooks-18.xo","","help/getbooks.html"],
-["4194","Get IA Books","activity-getiabooks.svg","GetIABooks-9.xo",""],
 ["4508","Jam Clock","activity-jamclock.svg","JAMClock-3.xo",""],
 ["4546","JaMediaimagenes","activity-jamediaimagenes.svg","JAMediaImagenes-2.xo",""],
-["4783","Blender32","activity-blender32.svg","Blender32-13.xo"],
-["4782","Blender64","activity-blender64.svg","Blender64-13.xo"],
+["4783","Blender32","activity-blender32.svg","Blender32-13.xo","","notes/blender32.html"],
+["4782","Blender64","activity-blender64.svg","Blender64-13.xo","","notes/blender64.html'],
 ["4529","I Can Read","activity-icanread.svg","ICanRead-3.xo",""],
 ]
 
