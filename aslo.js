@@ -181,7 +181,7 @@ var gtk3x = [
 ["4729","MakeyMakey","activity-makeymakey.svg","MakeyMakey-2.xo","MakeyMakey enables the MakeyMakey device on the OLPC XO 4 hardware. Run this activity, use your MakeyMalkey device.","","notes/makeymakey.html"],
 ["4303","MathGraph 32","activity-mathgraph32.svg","MathGraph32-18.xo","","","notes/mathgraph32.html"],
 ["4230","Micropolis","activity-micropolis.svg","Micropolis-9.xo","Micropolis. Just like SimCity.Build a City. Manage your city. Pure fun!","","notes/micropolis.html"],
-["4654","Music Keyboard","activity-musickeyboard.svg","MusicKeyboard-11.xo","","help/musickeyboard.html","","notes/musickeyboard.html"],
+["4654","Music Keyboard","activity-musickeyboard.svg","MusicKeyboard-11.xo","","help/musickeyboard.html","notes/musickeyboard.html"],
 ["4378","PyDebug","activity-pydebug.svg","PyDebug-8.xo","PyDebug is a tool for writing and debugging Activities for the Sugar desktop platform that is optimized for offline, stand alone program development on the XO.","","notes/pydebug.html"],
 ["4192","Ruler","activity-ruler.svg","Ruler-34.xo","Ruler is a very simple Activity which provides images of a ruler, cm and mm grids, and a cm checker board.  Originally written by Mictchell N. Charity for the OLPC XO-1 computer, Ruler now tries to properly calculate the proper scale for variable resolution displays.","","notes/ruler.html"],
 ["4084","SocialCalc","activity-socialcalcactivity.svg","socialcalcactivity-8.xo","SocialCalc is a spreadsheet activity developed in JavaScript for functioning in the Sugar environment,","","notes/socialcalc.html"],

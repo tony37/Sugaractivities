@@ -125,6 +125,7 @@ for line in lines:
                    else:
                        lineout +=  'not found:' + fn + ','
                        print 'note not found', fn
+                       print 'note not found', entry[0],entry[6]
                        countn += 1
                    continue
                 if not(entry[i]):
