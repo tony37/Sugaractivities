@@ -569,7 +569,7 @@ var githubx = [
 ["4508","Jam Clock","activity-jamclock.svg","JAMClock-3.xo",""],
 ["4546","JaMediaimagenes","activity-jamediaimagenes.svg","JAMediaImagenes-2.xo",""],
 ["4783","Blender32","activity-blender32.svg","Blender32-13.xo","","notes/blender32.html"],
-["4782","Blender64","activity-blender64.svg","Blender64-13.xo","","notes/blender64.html'],
+["4782","Blender64","activity-blender64.svg","Blender64-13.xo","","notes/blender64.html"],
 ["4529","I Can Read","activity-icanread.svg","ICanRead-3.xo",""],
 ]
 
